@@ -1,0 +1,1410 @@
+Java HotSpot(TM) 64-Bit Server VM (24.80-b11) for windows-amd64 JRE (1.7.0_80-b15), built on Apr 10 2015 11:26:34 by "java_re" with unknown MS VC++:1600
+Memory: 4k page, physical 8291420k(3430212k free), swap 16580980k(11058428k free)
+CommandLine flags: -XX:CMSFullGCsBeforeCompaction=1 -XX:CMSInitiatingOccupancyFraction=50 -XX:CMSMaxAbortablePrecleanTime=6000 -XX:+CMSParallelRemarkEnabled -XX:+CMSScavengeBeforeRemark -XX:CMSTriggerPermRatio=80 -XX:ConcGCThreads=4 -XX:InitialHeapSize=536870912 -XX:MaxHeapSize=536870912 -XX:MaxTenuringThreshold=8 -XX:NewRatio=3 -XX:OldPLABSize=16 -XX:ParallelGCThreads=4 -XX:+ParallelRefProcEnabled -XX:PretenureSizeThreshold=67108864 -XX:+PrintGC -XX:+PrintGCApplicationStoppedTime -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+PrintTenuringDistribution -XX:SurvivorRatio=4 -XX:TargetSurvivorRatio=90 -XX:ThreadStackSize=256 -XX:+UseCMSInitiatingOccupancyOnly -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:-UseLargePagesIndividualAllocation -XX:+UseParNewGC 
+2017-01-23T10:34:48.719-0500: 4.350: Total time for which application threads were stopped: 0.0120830 seconds, Stopping threads took: 0.0000176 seconds
+2017-01-23T10:34:51.985-0500: 7.606: Total time for which application threads were stopped: 0.0001521 seconds, Stopping threads took: 0.0000553 seconds
+2017-01-23T10:34:51.985-0500: 7.607: Total time for which application threads were stopped: 0.0000781 seconds, Stopping threads took: 0.0000469 seconds
+2017-01-23T10:34:51.986-0500: 7.607: Total time for which application threads were stopped: 0.0000498 seconds, Stopping threads took: 0.0000114 seconds
+{Heap before GC invocations=0 (full 0):
+ par new generation   total 109248K, used 87424K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 9608K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+2017-01-23T10:34:53.301-0500: 8.922: [GC2017-01-23T10:34:53.301-0500: 8.922: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    5370376 bytes,    5370376 total
+: 87424K->5305K(109248K), 0.0123080 secs] 87424K->5305K(502464K), 0.0124656 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=1 (full 0):
+ par new generation   total 109248K, used 5305K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  24% used [0x00000000e18b0000, 0x00000000e1dde7a8, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 9608K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+}
+2017-01-23T10:34:53.313-0500: 8.934: Total time for which application threads were stopped: 0.0126606 seconds, Stopping threads took: 0.0000143 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0001001 seconds, Stopping threads took: 0.0000627 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000260 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000290 seconds, Stopping threads took: 0.0000176 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000323 seconds, Stopping threads took: 0.0000202 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000418 seconds, Stopping threads took: 0.0000319 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000253 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000216 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000209 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000128 seconds, Stopping threads took: 0.0000055 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000191 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000128 seconds, Stopping threads took: 0.0000055 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000202 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000176 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000198 seconds, Stopping threads took: 0.0000121 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000125 seconds, Stopping threads took: 0.0000051 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000176 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000198 seconds, Stopping threads took: 0.0000121 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000180 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T10:34:53.314-0500: 8.935: Total time for which application threads were stopped: 0.0000198 seconds, Stopping threads took: 0.0000121 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000916 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000187 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000125 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000209 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000187 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000183 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000117 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000114 seconds, Stopping threads took: 0.0000044 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000169 seconds, Stopping threads took: 0.0000092 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000169 seconds, Stopping threads took: 0.0000092 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000169 seconds, Stopping threads took: 0.0000095 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000209 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000125 seconds, Stopping threads took: 0.0000051 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000169 seconds, Stopping threads took: 0.0000092 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000205 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000194 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000202 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000205 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000348 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000213 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000308 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000209 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:34:53.315-0500: 8.936: Total time for which application threads were stopped: 0.0000341 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000605 seconds, Stopping threads took: 0.0000143 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000396 seconds, Stopping threads took: 0.0000165 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000348 seconds, Stopping threads took: 0.0000147 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000312 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000334 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000319 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000315 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000334 seconds, Stopping threads took: 0.0000117 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000246 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000246 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000246 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000242 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000242 seconds, Stopping threads took: 0.0000044 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000238 seconds, Stopping threads took: 0.0000044 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000246 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000242 seconds, Stopping threads took: 0.0000044 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000246 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000304 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T10:34:53.316-0500: 8.937: Total time for which application threads were stopped: 0.0000542 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000319 seconds, Stopping threads took: 0.0000066 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000059 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000220 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000231 seconds, Stopping threads took: 0.0000059 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000319 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000315 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000227 seconds, Stopping threads took: 0.0000059 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000227 seconds, Stopping threads took: 0.0000059 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000312 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T10:34:53.317-0500: 8.938: Total time for which application threads were stopped: 0.0000293 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T10:34:53.318-0500: 8.939: Total time for which application threads were stopped: 0.0000286 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T10:34:53.402-0500: 9.023: Total time for which application threads were stopped: 0.0000605 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:34:54.402-0500: 10.023: Total time for which application threads were stopped: 0.0002269 seconds, Stopping threads took: 0.0000341 seconds
+2017-01-23T10:34:55.541-0500: 11.162: Total time for which application threads were stopped: 0.0002470 seconds, Stopping threads took: 0.0000627 seconds
+2017-01-23T10:34:56.245-0500: 11.866: Total time for which application threads were stopped: 0.0003838 seconds, Stopping threads took: 0.0001045 seconds
+2017-01-23T10:34:56.246-0500: 11.867: Total time for which application threads were stopped: 0.0001547 seconds, Stopping threads took: 0.0000685 seconds
+2017-01-23T10:34:56.246-0500: 11.867: Total time for which application threads were stopped: 0.0001825 seconds, Stopping threads took: 0.0000795 seconds
+2017-01-23T10:34:56.247-0500: 11.868: Total time for which application threads were stopped: 0.0002786 seconds, Stopping threads took: 0.0001814 seconds
+2017-01-23T10:34:56.247-0500: 11.868: Total time for which application threads were stopped: 0.0001822 seconds, Stopping threads took: 0.0000810 seconds
+2017-01-23T10:34:56.247-0500: 11.868: Total time for which application threads were stopped: 0.0001338 seconds, Stopping threads took: 0.0000392 seconds
+2017-01-23T10:34:56.248-0500: 11.869: Total time for which application threads were stopped: 0.0002470 seconds, Stopping threads took: 0.0001312 seconds
+2017-01-23T10:34:56.248-0500: 11.869: Total time for which application threads were stopped: 0.0001254 seconds, Stopping threads took: 0.0000297 seconds
+2017-01-23T10:34:56.248-0500: 11.869: Total time for which application threads were stopped: 0.0001217 seconds, Stopping threads took: 0.0000290 seconds
+2017-01-23T10:34:56.248-0500: 11.869: Total time for which application threads were stopped: 0.0001781 seconds, Stopping threads took: 0.0000795 seconds
+2017-01-23T10:34:56.249-0500: 11.870: Total time for which application threads were stopped: 0.0001778 seconds, Stopping threads took: 0.0000788 seconds
+2017-01-23T10:34:56.249-0500: 11.870: Total time for which application threads were stopped: 0.0001191 seconds, Stopping threads took: 0.0000429 seconds
+2017-01-23T10:34:56.249-0500: 11.870: Total time for which application threads were stopped: 0.0001451 seconds, Stopping threads took: 0.0000704 seconds
+2017-01-23T10:34:56.249-0500: 11.870: Total time for which application threads were stopped: 0.0001129 seconds, Stopping threads took: 0.0000429 seconds
+2017-01-23T10:34:56.250-0500: 11.871: Total time for which application threads were stopped: 0.0001298 seconds, Stopping threads took: 0.0000282 seconds
+2017-01-23T10:34:56.250-0500: 11.871: Total time for which application threads were stopped: 0.0000858 seconds, Stopping threads took: 0.0000176 seconds
+2017-01-23T10:34:56.250-0500: 11.871: Total time for which application threads were stopped: 0.0000803 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T10:34:56.250-0500: 11.871: Total time for which application threads were stopped: 0.0001133 seconds, Stopping threads took: 0.0000242 seconds
+2017-01-23T10:34:56.250-0500: 11.871: Total time for which application threads were stopped: 0.0001136 seconds, Stopping threads took: 0.0000242 seconds
+2017-01-23T10:34:56.251-0500: 11.872: Total time for which application threads were stopped: 0.0002903 seconds, Stopping threads took: 0.0000246 seconds
+2017-01-23T10:34:56.251-0500: 11.872: Total time for which application threads were stopped: 0.0001169 seconds, Stopping threads took: 0.0000249 seconds
+2017-01-23T10:34:56.251-0500: 11.872: Total time for which application threads were stopped: 0.0001206 seconds, Stopping threads took: 0.0000249 seconds
+2017-01-23T10:34:56.252-0500: 11.873: Total time for which application threads were stopped: 0.0001202 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T10:34:56.252-0500: 11.873: Total time for which application threads were stopped: 0.0000946 seconds, Stopping threads took: 0.0000253 seconds
+2017-01-23T10:34:56.252-0500: 11.873: Total time for which application threads were stopped: 0.0001998 seconds, Stopping threads took: 0.0000253 seconds
+2017-01-23T10:34:56.253-0500: 11.874: Total time for which application threads were stopped: 0.0000902 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T10:34:56.253-0500: 11.874: Total time for which application threads were stopped: 0.0001338 seconds, Stopping threads took: 0.0000297 seconds
+2017-01-23T10:34:56.254-0500: 11.875: Total time for which application threads were stopped: 0.0001400 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T10:34:56.256-0500: 11.877: Total time for which application threads were stopped: 0.0001433 seconds, Stopping threads took: 0.0000737 seconds
+2017-01-23T10:34:56.256-0500: 11.877: Total time for which application threads were stopped: 0.0001536 seconds, Stopping threads took: 0.0000854 seconds
+2017-01-23T10:34:56.256-0500: 11.877: Total time for which application threads were stopped: 0.0002045 seconds, Stopping threads took: 0.0001393 seconds
+2017-01-23T10:34:56.257-0500: 11.878: Total time for which application threads were stopped: 0.0001473 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T10:34:56.257-0500: 11.878: Total time for which application threads were stopped: 0.0001166 seconds, Stopping threads took: 0.0000564 seconds
+2017-01-23T10:34:56.257-0500: 11.878: Total time for which application threads were stopped: 0.0001943 seconds, Stopping threads took: 0.0000271 seconds
+2017-01-23T10:34:56.257-0500: 11.878: Total time for which application threads were stopped: 0.0001199 seconds, Stopping threads took: 0.0000180 seconds
+2017-01-23T10:34:56.258-0500: 11.879: Total time for which application threads were stopped: 0.0002503 seconds, Stopping threads took: 0.0000275 seconds
+2017-01-23T10:34:56.258-0500: 11.879: Total time for which application threads were stopped: 0.0001309 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:34:56.258-0500: 11.879: Total time for which application threads were stopped: 0.0001268 seconds, Stopping threads took: 0.0000220 seconds
+2017-01-23T10:34:56.258-0500: 11.879: Total time for which application threads were stopped: 0.0001561 seconds, Stopping threads took: 0.0000242 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0001100 seconds, Stopping threads took: 0.0000286 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0000740 seconds, Stopping threads took: 0.0000209 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0000678 seconds, Stopping threads took: 0.0000187 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0000667 seconds, Stopping threads took: 0.0000187 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0000652 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0000649 seconds, Stopping threads took: 0.0000176 seconds
+2017-01-23T10:34:56.259-0500: 11.880: Total time for which application threads were stopped: 0.0000722 seconds, Stopping threads took: 0.0000253 seconds
+2017-01-23T10:34:56.260-0500: 11.881: Total time for which application threads were stopped: 0.0000656 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:56.260-0500: 11.881: Total time for which application threads were stopped: 0.0000638 seconds, Stopping threads took: 0.0000165 seconds
+2017-01-23T10:34:56.260-0500: 11.881: Total time for which application threads were stopped: 0.0003577 seconds, Stopping threads took: 0.0000520 seconds
+2017-01-23T10:34:56.260-0500: 11.881: Total time for which application threads were stopped: 0.0001338 seconds, Stopping threads took: 0.0000312 seconds
+2017-01-23T10:34:56.261-0500: 11.882: Total time for which application threads were stopped: 0.0002001 seconds, Stopping threads took: 0.0000612 seconds
+2017-01-23T10:34:56.261-0500: 11.882: Total time for which application threads were stopped: 0.0001228 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T10:34:56.261-0500: 11.882: Total time for which application threads were stopped: 0.0002152 seconds, Stopping threads took: 0.0000689 seconds
+2017-01-23T10:34:56.262-0500: 11.883: Total time for which application threads were stopped: 0.0002353 seconds, Stopping threads took: 0.0001096 seconds
+2017-01-23T10:34:56.263-0500: 11.884: Total time for which application threads were stopped: 0.0004164 seconds, Stopping threads took: 0.0003163 seconds
+2017-01-23T10:34:56.264-0500: 11.885: Total time for which application threads were stopped: 0.0001543 seconds, Stopping threads took: 0.0000575 seconds
+2017-01-23T10:34:56.265-0500: 11.886: Total time for which application threads were stopped: 0.0001957 seconds, Stopping threads took: 0.0000913 seconds
+2017-01-23T10:34:56.265-0500: 11.886: Total time for which application threads were stopped: 0.0002100 seconds, Stopping threads took: 0.0000744 seconds
+2017-01-23T10:34:56.266-0500: 11.887: Total time for which application threads were stopped: 0.0002870 seconds, Stopping threads took: 0.0001858 seconds
+2017-01-23T10:34:56.268-0500: 11.889: Total time for which application threads were stopped: 0.0001965 seconds, Stopping threads took: 0.0000909 seconds
+2017-01-23T10:34:56.268-0500: 11.889: Total time for which application threads were stopped: 0.0001594 seconds, Stopping threads took: 0.0000205 seconds
+2017-01-23T10:34:56.269-0500: 11.890: Total time for which application threads were stopped: 0.0002452 seconds, Stopping threads took: 0.0001367 seconds
+2017-01-23T10:34:56.269-0500: 11.890: Total time for which application threads were stopped: 0.0001547 seconds, Stopping threads took: 0.0000275 seconds
+2017-01-23T10:34:56.270-0500: 11.891: Total time for which application threads were stopped: 0.0002295 seconds, Stopping threads took: 0.0001063 seconds
+2017-01-23T10:34:56.270-0500: 11.891: Total time for which application threads were stopped: 0.0001484 seconds, Stopping threads took: 0.0000436 seconds
+2017-01-23T10:34:56.271-0500: 11.892: Total time for which application threads were stopped: 0.0002045 seconds, Stopping threads took: 0.0000891 seconds
+2017-01-23T10:34:56.271-0500: 11.892: Total time for which application threads were stopped: 0.0002485 seconds, Stopping threads took: 0.0001305 seconds
+2017-01-23T10:34:56.272-0500: 11.893: Total time for which application threads were stopped: 0.0003728 seconds, Stopping threads took: 0.0000729 seconds
+2017-01-23T10:34:56.273-0500: 11.894: Total time for which application threads were stopped: 0.0001844 seconds, Stopping threads took: 0.0001019 seconds
+2017-01-23T10:34:56.273-0500: 11.894: Total time for which application threads were stopped: 0.0001290 seconds, Stopping threads took: 0.0000751 seconds
+2017-01-23T10:34:56.273-0500: 11.894: Total time for which application threads were stopped: 0.0002196 seconds, Stopping threads took: 0.0001484 seconds
+2017-01-23T10:34:56.274-0500: 11.895: Total time for which application threads were stopped: 0.0001437 seconds, Stopping threads took: 0.0000781 seconds
+2017-01-23T10:34:56.274-0500: 11.895: Total time for which application threads were stopped: 0.0001833 seconds, Stopping threads took: 0.0001034 seconds
+2017-01-23T10:34:56.275-0500: 11.896: Total time for which application threads were stopped: 0.0002093 seconds, Stopping threads took: 0.0001096 seconds
+2017-01-23T10:34:56.275-0500: 11.896: Total time for which application threads were stopped: 0.0001932 seconds, Stopping threads took: 0.0000806 seconds
+2017-01-23T10:34:56.275-0500: 11.896: Total time for which application threads were stopped: 0.0002463 seconds, Stopping threads took: 0.0001327 seconds
+2017-01-23T10:34:56.276-0500: 11.897: Total time for which application threads were stopped: 0.0001737 seconds, Stopping threads took: 0.0000905 seconds
+2017-01-23T10:34:56.277-0500: 11.898: Total time for which application threads were stopped: 0.0002683 seconds, Stopping threads took: 0.0001382 seconds
+2017-01-23T10:34:56.277-0500: 11.898: Total time for which application threads were stopped: 0.0002276 seconds, Stopping threads took: 0.0001144 seconds
+2017-01-23T10:34:56.278-0500: 11.899: Total time for which application threads were stopped: 0.0003031 seconds, Stopping threads took: 0.0001759 seconds
+2017-01-23T10:34:56.278-0500: 11.899: Total time for which application threads were stopped: 0.0001254 seconds, Stopping threads took: 0.0000422 seconds
+2017-01-23T10:34:56.279-0500: 11.900: Total time for which application threads were stopped: 0.0001877 seconds, Stopping threads took: 0.0000784 seconds
+2017-01-23T10:34:56.279-0500: 11.900: Total time for which application threads were stopped: 0.0002470 seconds, Stopping threads took: 0.0001338 seconds
+2017-01-23T10:34:56.280-0500: 11.901: Total time for which application threads were stopped: 0.0002577 seconds, Stopping threads took: 0.0001397 seconds
+2017-01-23T10:34:56.281-0500: 11.902: Total time for which application threads were stopped: 0.0002295 seconds, Stopping threads took: 0.0000817 seconds
+2017-01-23T10:34:56.281-0500: 11.902: Total time for which application threads were stopped: 0.0002229 seconds, Stopping threads took: 0.0001085 seconds
+2017-01-23T10:34:56.291-0500: 11.912: Total time for which application threads were stopped: 0.0002364 seconds, Stopping threads took: 0.0001301 seconds
+2017-01-23T10:34:56.292-0500: 11.913: Total time for which application threads were stopped: 0.0002459 seconds, Stopping threads took: 0.0001679 seconds
+2017-01-23T10:34:56.293-0500: 11.914: Total time for which application threads were stopped: 0.0001690 seconds, Stopping threads took: 0.0000975 seconds
+2017-01-23T10:34:56.293-0500: 11.914: Total time for which application threads were stopped: 0.0002529 seconds, Stopping threads took: 0.0001715 seconds
+2017-01-23T10:34:56.294-0500: 11.915: Total time for which application threads were stopped: 0.0001946 seconds, Stopping threads took: 0.0001210 seconds
+2017-01-23T10:34:56.295-0500: 11.916: Total time for which application threads were stopped: 0.0003215 seconds, Stopping threads took: 0.0002434 seconds
+2017-01-23T10:34:56.295-0500: 11.916: Total time for which application threads were stopped: 0.0001877 seconds, Stopping threads took: 0.0001092 seconds
+2017-01-23T10:34:56.296-0500: 11.917: Total time for which application threads were stopped: 0.0001506 seconds, Stopping threads took: 0.0000531 seconds
+2017-01-23T10:34:56.296-0500: 11.917: Total time for which application threads were stopped: 0.0001576 seconds, Stopping threads took: 0.0000751 seconds
+2017-01-23T10:34:56.297-0500: 11.918: Total time for which application threads were stopped: 0.0001598 seconds, Stopping threads took: 0.0000817 seconds
+2017-01-23T10:34:56.297-0500: 11.919: Total time for which application threads were stopped: 0.0002650 seconds, Stopping threads took: 0.0001778 seconds
+2017-01-23T10:34:56.299-0500: 11.920: Total time for which application threads were stopped: 0.0001866 seconds, Stopping threads took: 0.0001056 seconds
+2017-01-23T10:34:56.299-0500: 11.920: Total time for which application threads were stopped: 0.0002214 seconds, Stopping threads took: 0.0001206 seconds
+2017-01-23T10:34:56.301-0500: 11.922: Total time for which application threads were stopped: 0.0002269 seconds, Stopping threads took: 0.0001459 seconds
+2017-01-23T10:34:56.302-0500: 11.923: Total time for which application threads were stopped: 0.0004461 seconds, Stopping threads took: 0.0000832 seconds
+2017-01-23T10:34:56.303-0500: 11.925: Total time for which application threads were stopped: 0.0003207 seconds, Stopping threads took: 0.0001869 seconds
+2017-01-23T10:34:56.306-0500: 11.927: Total time for which application threads were stopped: 0.0005318 seconds, Stopping threads took: 0.0004149 seconds
+2017-01-23T10:34:56.306-0500: 11.927: Total time for which application threads were stopped: 0.0000916 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:34:56.306-0500: 11.927: Total time for which application threads were stopped: 0.0001309 seconds, Stopping threads took: 0.0000337 seconds
+2017-01-23T10:34:56.307-0500: 11.928: Total time for which application threads were stopped: 0.0001349 seconds, Stopping threads took: 0.0000308 seconds
+2017-01-23T10:34:56.307-0500: 11.928: Total time for which application threads were stopped: 0.0001411 seconds, Stopping threads took: 0.0000323 seconds
+2017-01-23T10:34:56.308-0500: 11.929: Total time for which application threads were stopped: 0.0002269 seconds, Stopping threads took: 0.0000964 seconds
+2017-01-23T10:34:56.309-0500: 11.930: Total time for which application threads were stopped: 0.0007576 seconds, Stopping threads took: 0.0006484 seconds
+2017-01-23T10:34:56.321-0500: 11.942: Total time for which application threads were stopped: 0.0001701 seconds, Stopping threads took: 0.0000553 seconds
+2017-01-23T10:34:56.324-0500: 11.945: Total time for which application threads were stopped: 0.0011513 seconds, Stopping threads took: 0.0010105 seconds
+2017-01-23T10:34:56.325-0500: 11.946: Total time for which application threads were stopped: 0.0001950 seconds, Stopping threads took: 0.0000810 seconds
+2017-01-23T10:34:56.357-0500: 11.978: Total time for which application threads were stopped: 0.0305397 seconds, Stopping threads took: 0.0303857 seconds
+2017-01-23T10:34:56.360-0500: 11.981: Total time for which application threads were stopped: 0.0002426 seconds, Stopping threads took: 0.0000913 seconds
+2017-01-23T10:34:56.384-0500: 12.005: Total time for which application threads were stopped: 0.0001199 seconds, Stopping threads took: 0.0000440 seconds
+2017-01-23T10:34:56.389-0500: 12.010: Total time for which application threads were stopped: 0.0007181 seconds, Stopping threads took: 0.0006253 seconds
+2017-01-23T10:34:56.397-0500: 12.018: Total time for which application threads were stopped: 0.0002976 seconds, Stopping threads took: 0.0002100 seconds
+2017-01-23T10:34:56.443-0500: 12.064: Total time for which application threads were stopped: 0.0000927 seconds, Stopping threads took: 0.0000381 seconds
+2017-01-23T10:34:56.529-0500: 12.150: Total time for which application threads were stopped: 0.0001309 seconds, Stopping threads took: 0.0000869 seconds
+2017-01-23T10:34:56.529-0500: 12.150: Total time for which application threads were stopped: 0.0000678 seconds, Stopping threads took: 0.0000271 seconds
+2017-01-23T10:34:56.530-0500: 12.151: Total time for which application threads were stopped: 0.0000715 seconds, Stopping threads took: 0.0000381 seconds
+2017-01-23T10:34:56.530-0500: 12.151: Total time for which application threads were stopped: 0.0000832 seconds, Stopping threads took: 0.0000440 seconds
+2017-01-23T10:34:56.530-0500: 12.151: Total time for which application threads were stopped: 0.0000759 seconds, Stopping threads took: 0.0000433 seconds
+2017-01-23T10:34:56.558-0500: 12.179: Total time for which application threads were stopped: 0.0000872 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T10:34:56.558-0500: 12.179: Total time for which application threads were stopped: 0.0000700 seconds, Stopping threads took: 0.0000477 seconds
+2017-01-23T10:34:56.558-0500: 12.179: Total time for which application threads were stopped: 0.0000568 seconds, Stopping threads took: 0.0000359 seconds
+2017-01-23T10:34:56.559-0500: 12.179: Total time for which application threads were stopped: 0.0000403 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:34:56.559-0500: 12.180: Total time for which application threads were stopped: 0.0000619 seconds, Stopping threads took: 0.0000326 seconds
+2017-01-23T10:34:56.559-0500: 12.180: Total time for which application threads were stopped: 0.0000759 seconds, Stopping threads took: 0.0000531 seconds
+2017-01-23T10:34:56.559-0500: 12.180: Total time for which application threads were stopped: 0.0000389 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:34:56.559-0500: 12.180: Total time for which application threads were stopped: 0.0000737 seconds, Stopping threads took: 0.0000509 seconds
+2017-01-23T10:34:56.559-0500: 12.180: Total time for which application threads were stopped: 0.0000575 seconds, Stopping threads took: 0.0000422 seconds
+2017-01-23T10:34:56.559-0500: 12.180: Total time for which application threads were stopped: 0.0000414 seconds, Stopping threads took: 0.0000194 seconds
+2017-01-23T10:34:56.560-0500: 12.180: Total time for which application threads were stopped: 0.0000506 seconds, Stopping threads took: 0.0000260 seconds
+2017-01-23T10:34:56.560-0500: 12.181: Total time for which application threads were stopped: 0.0000341 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T10:34:56.608-0500: 12.229: Total time for which application threads were stopped: 0.0000389 seconds, Stopping threads took: 0.0000147 seconds
+2017-01-23T10:34:56.608-0500: 12.229: Total time for which application threads were stopped: 0.0000172 seconds, Stopping threads took: 0.0000066 seconds
+2017-01-23T10:34:56.608-0500: 12.229: Total time for which application threads were stopped: 0.0000180 seconds, Stopping threads took: 0.0000073 seconds
+2017-01-23T10:34:56.608-0500: 12.229: Total time for which application threads were stopped: 0.0000180 seconds, Stopping threads took: 0.0000073 seconds
+2017-01-23T10:34:56.612-0500: 12.233: Total time for which application threads were stopped: 0.0000297 seconds, Stopping threads took: 0.0000169 seconds
+2017-01-23T10:34:56.617-0500: 12.238: Total time for which application threads were stopped: 0.0000971 seconds, Stopping threads took: 0.0000553 seconds
+2017-01-23T10:34:56.617-0500: 12.238: Total time for which application threads were stopped: 0.0000821 seconds, Stopping threads took: 0.0000531 seconds
+2017-01-23T10:34:56.617-0500: 12.238: Total time for which application threads were stopped: 0.0000832 seconds, Stopping threads took: 0.0000539 seconds
+2017-01-23T10:34:56.617-0500: 12.238: Total time for which application threads were stopped: 0.0000887 seconds, Stopping threads took: 0.0000575 seconds
+2017-01-23T10:34:56.617-0500: 12.238: Total time for which application threads were stopped: 0.0001122 seconds, Stopping threads took: 0.0000715 seconds
+2017-01-23T10:34:56.619-0500: 12.240: Total time for which application threads were stopped: 0.0002130 seconds, Stopping threads took: 0.0001371 seconds
+2017-01-23T10:34:56.628-0500: 12.249: Total time for which application threads were stopped: 0.0001774 seconds, Stopping threads took: 0.0001371 seconds
+2017-01-23T10:34:56.629-0500: 12.250: Total time for which application threads were stopped: 0.0001411 seconds, Stopping threads took: 0.0001078 seconds
+2017-01-23T10:34:56.629-0500: 12.250: Total time for which application threads were stopped: 0.0002419 seconds, Stopping threads took: 0.0001987 seconds
+2017-01-23T10:34:56.629-0500: 12.250: Total time for which application threads were stopped: 0.0002731 seconds, Stopping threads took: 0.0002291 seconds
+2017-01-23T10:34:56.656-0500: 12.277: Total time for which application threads were stopped: 0.0001059 seconds, Stopping threads took: 0.0000213 seconds
+2017-01-23T10:34:56.656-0500: 12.277: Total time for which application threads were stopped: 0.0000359 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:34:56.656-0500: 12.277: Total time for which application threads were stopped: 0.0000363 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T10:34:56.656-0500: 12.277: Total time for which application threads were stopped: 0.0000418 seconds, Stopping threads took: 0.0000176 seconds
+2017-01-23T10:34:56.697-0500: 12.318: Total time for which application threads were stopped: 0.0000546 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T10:34:56.706-0500: 12.327: Total time for which application threads were stopped: 0.0001554 seconds, Stopping threads took: 0.0001173 seconds
+2017-01-23T10:34:56.706-0500: 12.327: Total time for which application threads were stopped: 0.0004061 seconds, Stopping threads took: 0.0001726 seconds
+2017-01-23T10:34:56.706-0500: 12.327: Total time for which application threads were stopped: 0.0001899 seconds, Stopping threads took: 0.0001510 seconds
+2017-01-23T10:34:56.707-0500: 12.328: Total time for which application threads were stopped: 0.0002060 seconds, Stopping threads took: 0.0001671 seconds
+2017-01-23T10:34:56.710-0500: 12.331: Total time for which application threads were stopped: 0.0001470 seconds, Stopping threads took: 0.0000748 seconds
+2017-01-23T10:34:56.710-0500: 12.331: Total time for which application threads were stopped: 0.0001074 seconds, Stopping threads took: 0.0000799 seconds
+2017-01-23T10:34:56.710-0500: 12.331: Total time for which application threads were stopped: 0.0000700 seconds, Stopping threads took: 0.0000469 seconds
+2017-01-23T10:34:56.718-0500: 12.339: Total time for which application threads were stopped: 0.0000561 seconds, Stopping threads took: 0.0000268 seconds
+2017-01-23T10:34:56.770-0500: 12.391: Total time for which application threads were stopped: 0.0001235 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T10:34:56.772-0500: 12.393: Total time for which application threads were stopped: 0.0000367 seconds, Stopping threads took: 0.0000147 seconds
+2017-01-23T10:34:56.780-0500: 12.401: Total time for which application threads were stopped: 0.0000520 seconds, Stopping threads took: 0.0000205 seconds
+2017-01-23T10:34:56.789-0500: 12.410: Total time for which application threads were stopped: 0.0000766 seconds, Stopping threads took: 0.0000279 seconds
+2017-01-23T10:34:56.795-0500: 12.416: Total time for which application threads were stopped: 0.0000539 seconds, Stopping threads took: 0.0000253 seconds
+2017-01-23T10:34:56.795-0500: 12.416: Total time for which application threads were stopped: 0.0000396 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:56.795-0500: 12.416: Total time for which application threads were stopped: 0.0000400 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:56.802-0500: 12.423: Total time for which application threads were stopped: 0.0000872 seconds, Stopping threads took: 0.0000561 seconds
+2017-01-23T10:34:56.803-0500: 12.424: Total time for which application threads were stopped: 0.0000982 seconds, Stopping threads took: 0.0000711 seconds
+2017-01-23T10:34:56.803-0500: 12.424: Total time for which application threads were stopped: 0.0000352 seconds, Stopping threads took: 0.0000187 seconds
+2017-01-23T10:34:56.837-0500: 12.458: Total time for which application threads were stopped: 0.0000561 seconds, Stopping threads took: 0.0000268 seconds
+2017-01-23T10:34:56.837-0500: 12.458: Total time for which application threads were stopped: 0.0000389 seconds, Stopping threads took: 0.0000176 seconds
+2017-01-23T10:34:56.837-0500: 12.458: Total time for which application threads were stopped: 0.0000337 seconds, Stopping threads took: 0.0000180 seconds
+2017-01-23T10:34:56.839-0500: 12.460: Total time for which application threads were stopped: 0.0000517 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T10:34:56.840-0500: 12.461: Total time for which application threads were stopped: 0.0002566 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T10:34:56.840-0500: 12.461: Total time for which application threads were stopped: 0.0000418 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T10:34:56.845-0500: 12.466: Total time for which application threads were stopped: 0.0002247 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:34:56.846-0500: 12.467: Total time for which application threads were stopped: 0.0000389 seconds, Stopping threads took: 0.0000191 seconds
+2017-01-23T10:34:56.887-0500: 12.508: Total time for which application threads were stopped: 0.0000539 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T10:34:56.912-0500: 12.533: Total time for which application threads were stopped: 0.0000546 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T10:34:56.957-0500: 12.578: Total time for which application threads were stopped: 0.0000469 seconds, Stopping threads took: 0.0000161 seconds
+2017-01-23T10:34:57.005-0500: 12.626: Total time for which application threads were stopped: 0.0000597 seconds, Stopping threads took: 0.0000341 seconds
+2017-01-23T10:34:57.122-0500: 12.743: Total time for which application threads were stopped: 0.0001400 seconds, Stopping threads took: 0.0000502 seconds
+2017-01-23T10:34:57.212-0500: 12.833: Total time for which application threads were stopped: 0.0000902 seconds, Stopping threads took: 0.0000389 seconds
+{Heap before GC invocations=1 (full 0):
+ par new generation   total 109248K, used 92736K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  24% used [0x00000000e18b0000, 0x00000000e1de03b8, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 18963K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+2017-01-23T10:34:57.212-0500: 12.833: [GC2017-01-23T10:34:57.212-0500: 12.833: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:   11034336 bytes,   11034336 total
+- age   2:    2192968 bytes,   13227304 total
+: 92736K->14555K(109248K), 0.0333888 secs] 92736K->14555K(502464K), 0.0335409 secs] [Times: user=0.09 sys=0.00, real=0.03 secs] 
+Heap after GC invocations=2 (full 0):
+ par new generation   total 109248K, used 14555K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  66% used [0x00000000e0360000, 0x00000000e1196d38, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 18963K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+}
+2017-01-23T10:34:57.246-0500: 12.867: Total time for which application threads were stopped: 0.0338697 seconds, Stopping threads took: 0.0000172 seconds
+2017-01-23T10:34:57.249-0500: 12.870: Total time for which application threads were stopped: 0.0000557 seconds, Stopping threads took: 0.0000260 seconds
+2017-01-23T10:34:57.249-0500: 12.870: Total time for which application threads were stopped: 0.0000414 seconds, Stopping threads took: 0.0000249 seconds
+2017-01-23T10:34:57.249-0500: 12.870: Total time for which application threads were stopped: 0.0000590 seconds, Stopping threads took: 0.0000403 seconds
+2017-01-23T10:34:57.250-0500: 12.871: Total time for which application threads were stopped: 0.0000729 seconds, Stopping threads took: 0.0000462 seconds
+2017-01-23T10:34:57.250-0500: 12.871: Total time for which application threads were stopped: 0.0000572 seconds, Stopping threads took: 0.0000411 seconds
+2017-01-23T10:34:57.253-0500: 12.874: Total time for which application threads were stopped: 0.0000422 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:57.253-0500: 12.874: Total time for which application threads were stopped: 0.0000392 seconds, Stopping threads took: 0.0000169 seconds
+2017-01-23T10:34:57.253-0500: 12.874: Total time for which application threads were stopped: 0.0000345 seconds, Stopping threads took: 0.0000147 seconds
+2017-01-23T10:34:57.253-0500: 12.874: Total time for which application threads were stopped: 0.0000334 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:34:57.253-0500: 12.874: Total time for which application threads were stopped: 0.0000337 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:34:57.253-0500: 12.874: Total time for which application threads were stopped: 0.0000334 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:34:57.253-0500: 12.874: Total time for which application threads were stopped: 0.0000337 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:34:57.254-0500: 12.875: Total time for which application threads were stopped: 0.0000341 seconds, Stopping threads took: 0.0000143 seconds
+2017-01-23T10:34:57.254-0500: 12.875: Total time for which application threads were stopped: 0.0000345 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T10:34:57.254-0500: 12.875: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000169 seconds
+2017-01-23T10:34:57.254-0500: 12.875: Total time for which application threads were stopped: 0.0000253 seconds, Stopping threads took: 0.0000117 seconds
+2017-01-23T10:34:57.254-0500: 12.875: Total time for which application threads were stopped: 0.0000235 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T10:34:57.254-0500: 12.875: Total time for which application threads were stopped: 0.0000227 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T10:34:57.254-0500: 12.875: Total time for which application threads were stopped: 0.0000231 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T10:34:57.254-0500: 12.875: Total time for which application threads were stopped: 0.0002679 seconds, Stopping threads took: 0.0000143 seconds
+2017-01-23T10:34:57.822-0500: 13.443: Total time for which application threads were stopped: 0.0001320 seconds, Stopping threads took: 0.0000524 seconds
+2017-01-23T10:34:57.822-0500: 13.443: Total time for which application threads were stopped: 0.0000462 seconds, Stopping threads took: 0.0000194 seconds
+2017-01-23T10:34:58.186-0500: 13.807: Total time for which application threads were stopped: 0.0002320 seconds, Stopping threads took: 0.0000986 seconds
+2017-01-23T10:34:58.187-0500: 13.808: Total time for which application threads were stopped: 0.0001290 seconds, Stopping threads took: 0.0000704 seconds
+2017-01-23T10:34:58.187-0500: 13.808: Total time for which application threads were stopped: 0.0000788 seconds, Stopping threads took: 0.0000268 seconds
+2017-01-23T10:34:58.188-0500: 13.809: Total time for which application threads were stopped: 0.0001250 seconds, Stopping threads took: 0.0000663 seconds
+2017-01-23T10:34:58.188-0500: 13.809: Total time for which application threads were stopped: 0.0001492 seconds, Stopping threads took: 0.0000894 seconds
+2017-01-23T10:34:58.189-0500: 13.810: Total time for which application threads were stopped: 0.0001748 seconds, Stopping threads took: 0.0001155 seconds
+2017-01-23T10:34:58.191-0500: 13.812: Total time for which application threads were stopped: 0.0000931 seconds, Stopping threads took: 0.0000304 seconds
+2017-01-23T10:34:58.192-0500: 13.813: Total time for which application threads were stopped: 0.0001210 seconds, Stopping threads took: 0.0000616 seconds
+2017-01-23T10:34:58.193-0500: 13.814: Total time for which application threads were stopped: 0.0002540 seconds, Stopping threads took: 0.0001972 seconds
+2017-01-23T10:34:58.194-0500: 13.815: Total time for which application threads were stopped: 0.0000924 seconds, Stopping threads took: 0.0000367 seconds
+2017-01-23T10:34:58.195-0500: 13.816: Total time for which application threads were stopped: 0.0001221 seconds, Stopping threads took: 0.0000773 seconds
+2017-01-23T10:34:58.196-0500: 13.817: Total time for which application threads were stopped: 0.0001811 seconds, Stopping threads took: 0.0001239 seconds
+2017-01-23T10:34:58.196-0500: 13.817: Total time for which application threads were stopped: 0.0001686 seconds, Stopping threads took: 0.0001092 seconds
+2017-01-23T10:34:58.197-0500: 13.818: Total time for which application threads were stopped: 0.0001462 seconds, Stopping threads took: 0.0000858 seconds
+2017-01-23T10:34:58.197-0500: 13.818: Total time for which application threads were stopped: 0.0001561 seconds, Stopping threads took: 0.0000997 seconds
+2017-01-23T10:34:58.198-0500: 13.819: Total time for which application threads were stopped: 0.0001125 seconds, Stopping threads took: 0.0000590 seconds
+2017-01-23T10:34:58.200-0500: 13.821: Total time for which application threads were stopped: 0.0000773 seconds, Stopping threads took: 0.0000275 seconds
+2017-01-23T10:34:58.202-0500: 13.823: Total time for which application threads were stopped: 0.0000755 seconds, Stopping threads took: 0.0000249 seconds
+2017-01-23T10:34:58.203-0500: 13.824: Total time for which application threads were stopped: 0.0002383 seconds, Stopping threads took: 0.0000209 seconds
+2017-01-23T10:34:58.204-0500: 13.825: Total time for which application threads were stopped: 0.0000836 seconds, Stopping threads took: 0.0000330 seconds
+2017-01-23T10:34:58.205-0500: 13.826: Total time for which application threads were stopped: 0.0001561 seconds, Stopping threads took: 0.0000902 seconds
+2017-01-23T10:34:58.208-0500: 13.829: Total time for which application threads were stopped: 0.0000788 seconds, Stopping threads took: 0.0000268 seconds
+2017-01-23T10:34:58.211-0500: 13.832: Total time for which application threads were stopped: 0.0000795 seconds, Stopping threads took: 0.0000260 seconds
+2017-01-23T10:34:58.212-0500: 13.833: Total time for which application threads were stopped: 0.0000726 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:34:58.213-0500: 13.834: Total time for which application threads were stopped: 0.0000715 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T10:34:58.215-0500: 13.836: Total time for which application threads were stopped: 0.0002797 seconds, Stopping threads took: 0.0002251 seconds
+2017-01-23T10:34:58.218-0500: 13.839: Total time for which application threads were stopped: 0.0001994 seconds, Stopping threads took: 0.0000869 seconds
+2017-01-23T10:34:58.221-0500: 13.842: Total time for which application threads were stopped: 0.0001162 seconds, Stopping threads took: 0.0000605 seconds
+2017-01-23T10:34:58.222-0500: 13.843: Total time for which application threads were stopped: 0.0001327 seconds, Stopping threads took: 0.0000766 seconds
+2017-01-23T10:34:58.223-0500: 13.844: Total time for which application threads were stopped: 0.0001125 seconds, Stopping threads took: 0.0000608 seconds
+2017-01-23T10:34:58.225-0500: 13.846: Total time for which application threads were stopped: 0.0001239 seconds, Stopping threads took: 0.0000649 seconds
+2017-01-23T10:34:58.225-0500: 13.846: Total time for which application threads were stopped: 0.0001646 seconds, Stopping threads took: 0.0001100 seconds
+2017-01-23T10:34:58.226-0500: 13.847: Total time for which application threads were stopped: 0.0001737 seconds, Stopping threads took: 0.0001125 seconds
+2017-01-23T10:34:58.250-0500: 13.871: Total time for which application threads were stopped: 0.0000469 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T10:34:58.321-0500: 13.942: Total time for which application threads were stopped: 0.0000766 seconds, Stopping threads took: 0.0000165 seconds
+2017-01-23T10:34:58.321-0500: 13.942: Total time for which application threads were stopped: 0.0000161 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:58.321-0500: 13.942: Total time for which application threads were stopped: 0.0000147 seconds, Stopping threads took: 0.0000051 seconds
+2017-01-23T10:34:58.333-0500: 13.954: Total time for which application threads were stopped: 0.0000627 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T10:34:58.361-0500: 13.982: Total time for which application threads were stopped: 0.0000630 seconds, Stopping threads took: 0.0000198 seconds
+2017-01-23T10:34:58.384-0500: 14.005: Total time for which application threads were stopped: 0.0000847 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T10:34:58.401-0500: 14.022: Total time for which application threads were stopped: 0.0000564 seconds, Stopping threads took: 0.0000297 seconds
+2017-01-23T10:34:58.605-0500: 14.226: Total time for which application threads were stopped: 0.0002613 seconds, Stopping threads took: 0.0000356 seconds
+{Heap before GC invocations=2 (full 0):
+ par new generation   total 109248K, used 101979K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  66% used [0x00000000e0360000, 0x00000000e1196d38, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 19473K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+2017-01-23T10:34:58.726-0500: 14.347: [GC2017-01-23T10:34:58.726-0500: 14.347: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    1818840 bytes,    1818840 total
+- age   2:    4573248 bytes,    6392088 total
+- age   3:    2171728 bytes,    8563816 total
+: 101979K->13049K(109248K), 0.0059808 secs] 101979K->13049K(502464K), 0.0060600 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=3 (full 0):
+ par new generation   total 109248K, used 13049K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  59% used [0x00000000e18b0000, 0x00000000e256e7d8, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 19473K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+}
+2017-01-23T10:34:58.732-0500: 14.353: Total time for which application threads were stopped: 0.0062565 seconds, Stopping threads took: 0.0000308 seconds
+2017-01-23T10:34:58.733-0500: 14.354: Total time for which application threads were stopped: 0.0000535 seconds, Stopping threads took: 0.0000260 seconds
+2017-01-23T10:34:58.733-0500: 14.354: Total time for which application threads were stopped: 0.0000411 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T10:34:58.733-0500: 14.354: Total time for which application threads were stopped: 0.0000290 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T10:34:58.771-0500: 14.392: Total time for which application threads were stopped: 0.0000528 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T10:34:58.772-0500: 14.393: Total time for which application threads were stopped: 0.0000396 seconds, Stopping threads took: 0.0000198 seconds
+2017-01-23T10:34:58.830-0500: 14.451: Total time for which application threads were stopped: 0.0000458 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T10:34:58.873-0500: 14.494: Total time for which application threads were stopped: 0.0001301 seconds, Stopping threads took: 0.0000279 seconds
+2017-01-23T10:34:58.905-0500: 14.526: Total time for which application threads were stopped: 0.0000839 seconds, Stopping threads took: 0.0000513 seconds
+2017-01-23T10:34:58.905-0500: 14.526: Total time for which application threads were stopped: 0.0000334 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T10:34:58.905-0500: 14.526: Total time for which application threads were stopped: 0.0000495 seconds, Stopping threads took: 0.0000154 seconds
+2017-01-23T10:34:58.906-0500: 14.527: Total time for which application threads were stopped: 0.0000260 seconds, Stopping threads took: 0.0000143 seconds
+2017-01-23T10:34:58.913-0500: 14.534: Total time for which application threads were stopped: 0.0000495 seconds, Stopping threads took: 0.0000260 seconds
+2017-01-23T10:34:58.918-0500: 14.538: Total time for which application threads were stopped: 0.0000788 seconds, Stopping threads took: 0.0000220 seconds
+2017-01-23T10:34:58.938-0500: 14.559: Total time for which application threads were stopped: 0.0000964 seconds, Stopping threads took: 0.0000282 seconds
+2017-01-23T10:34:58.938-0500: 14.559: Total time for which application threads were stopped: 0.0000337 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:34:58.938-0500: 14.559: Total time for which application threads were stopped: 0.0000356 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T10:34:58.939-0500: 14.560: Total time for which application threads were stopped: 0.0000506 seconds, Stopping threads took: 0.0000161 seconds
+2017-01-23T10:34:58.940-0500: 14.561: Total time for which application threads were stopped: 0.0000447 seconds, Stopping threads took: 0.0000169 seconds
+2017-01-23T10:34:58.947-0500: 14.568: Total time for which application threads were stopped: 0.0000561 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:58.990-0500: 14.611: Total time for which application threads were stopped: 0.0000927 seconds, Stopping threads took: 0.0000202 seconds
+2017-01-23T10:34:58.998-0500: 14.619: Total time for which application threads were stopped: 0.0001012 seconds, Stopping threads took: 0.0000674 seconds
+2017-01-23T10:34:59.002-0500: 14.623: Total time for which application threads were stopped: 0.0000825 seconds, Stopping threads took: 0.0000370 seconds
+2017-01-23T10:34:59.005-0500: 14.626: Total time for which application threads were stopped: 0.0000700 seconds, Stopping threads took: 0.0000389 seconds
+2017-01-23T10:34:59.007-0500: 14.628: Total time for which application threads were stopped: 0.0000634 seconds, Stopping threads took: 0.0000370 seconds
+2017-01-23T10:34:59.009-0500: 14.630: Total time for which application threads were stopped: 0.0000689 seconds, Stopping threads took: 0.0000297 seconds
+2017-01-23T10:34:59.011-0500: 14.632: Total time for which application threads were stopped: 0.0000729 seconds, Stopping threads took: 0.0000433 seconds
+2017-01-23T10:34:59.013-0500: 14.634: Total time for which application threads were stopped: 0.0000623 seconds, Stopping threads took: 0.0000249 seconds
+2017-01-23T10:34:59.015-0500: 14.636: Total time for which application threads were stopped: 0.0000898 seconds, Stopping threads took: 0.0000535 seconds
+2017-01-23T10:34:59.016-0500: 14.637: Total time for which application threads were stopped: 0.0000466 seconds, Stopping threads took: 0.0000202 seconds
+2017-01-23T10:34:59.018-0500: 14.639: Total time for which application threads were stopped: 0.0000594 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T10:34:59.019-0500: 14.640: Total time for which application threads were stopped: 0.0000506 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T10:34:59.021-0500: 14.642: Total time for which application threads were stopped: 0.0000729 seconds, Stopping threads took: 0.0000381 seconds
+2017-01-23T10:34:59.022-0500: 14.643: Total time for which application threads were stopped: 0.0000484 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:34:59.024-0500: 14.645: Total time for which application threads were stopped: 0.0000674 seconds, Stopping threads took: 0.0000367 seconds
+2017-01-23T10:34:59.026-0500: 14.647: Total time for which application threads were stopped: 0.0000704 seconds, Stopping threads took: 0.0000286 seconds
+2017-01-23T10:34:59.027-0500: 14.648: Total time for which application threads were stopped: 0.0000590 seconds, Stopping threads took: 0.0000301 seconds
+2017-01-23T10:34:59.029-0500: 14.650: Total time for which application threads were stopped: 0.0000707 seconds, Stopping threads took: 0.0000356 seconds
+2017-01-23T10:34:59.031-0500: 14.652: Total time for which application threads were stopped: 0.0001419 seconds, Stopping threads took: 0.0000260 seconds
+{Heap before GC invocations=3 (full 0):
+ par new generation   total 109248K, used 100473K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  59% used [0x00000000e18b0000, 0x00000000e256e7d8, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 19998K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+2017-01-23T10:34:59.032-0500: 14.653: [GC2017-01-23T10:34:59.032-0500: 14.653: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    3017216 bytes,    3017216 total
+- age   2:     614368 bytes,    3631584 total
+- age   3:    4517664 bytes,    8149248 total
+- age   4:    2171624 bytes,   10320872 total
+: 100473K->14102K(109248K), 0.0079979 secs] 100473K->14102K(502464K), 0.0080903 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=4 (full 0):
+ par new generation   total 109248K, used 14102K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  64% used [0x00000000e0360000, 0x00000000e1125900, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 19998K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+}
+2017-01-23T10:34:59.040-0500: 14.661: Total time for which application threads were stopped: 0.0082218 seconds, Stopping threads took: 0.0000279 seconds
+2017-01-23T10:34:59.040-0500: 14.661: Total time for which application threads were stopped: 0.0000740 seconds, Stopping threads took: 0.0000378 seconds
+2017-01-23T10:34:59.040-0500: 14.661: Total time for which application threads were stopped: 0.0000531 seconds, Stopping threads took: 0.0000326 seconds
+2017-01-23T10:34:59.040-0500: 14.661: Total time for which application threads were stopped: 0.0000257 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T10:34:59.041-0500: 14.662: Total time for which application threads were stopped: 0.0000352 seconds, Stopping threads took: 0.0000165 seconds
+2017-01-23T10:34:59.044-0500: 14.665: Total time for which application threads were stopped: 0.0000411 seconds, Stopping threads took: 0.0000187 seconds
+2017-01-23T10:34:59.045-0500: 14.666: Total time for which application threads were stopped: 0.0000297 seconds, Stopping threads took: 0.0000136 seconds
+2017-01-23T10:34:59.045-0500: 14.666: Total time for which application threads were stopped: 0.0000341 seconds, Stopping threads took: 0.0000136 seconds
+2017-01-23T10:34:59.046-0500: 14.667: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000367 seconds
+2017-01-23T10:34:59.047-0500: 14.668: Total time for which application threads were stopped: 0.0000550 seconds, Stopping threads took: 0.0000293 seconds
+2017-01-23T10:34:59.049-0500: 14.670: Total time for which application threads were stopped: 0.0000484 seconds, Stopping threads took: 0.0000209 seconds
+2017-01-23T10:34:59.051-0500: 14.672: Total time for which application threads were stopped: 0.0000605 seconds, Stopping threads took: 0.0000275 seconds
+2017-01-23T10:34:59.052-0500: 14.673: Total time for which application threads were stopped: 0.0000689 seconds, Stopping threads took: 0.0000385 seconds
+2017-01-23T10:34:59.054-0500: 14.675: Total time for which application threads were stopped: 0.0000531 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:34:59.058-0500: 14.679: Total time for which application threads were stopped: 0.0001268 seconds, Stopping threads took: 0.0000169 seconds
+2017-01-23T10:34:59.058-0500: 14.679: Total time for which application threads were stopped: 0.0000462 seconds, Stopping threads took: 0.0000191 seconds
+2017-01-23T10:34:59.059-0500: 14.680: Total time for which application threads were stopped: 0.0000652 seconds, Stopping threads took: 0.0000345 seconds
+2017-01-23T10:34:59.060-0500: 14.681: Total time for which application threads were stopped: 0.0000535 seconds, Stopping threads took: 0.0000290 seconds
+2017-01-23T10:34:59.063-0500: 14.684: Total time for which application threads were stopped: 0.0000407 seconds, Stopping threads took: 0.0000147 seconds
+2017-01-23T10:34:59.064-0500: 14.685: Total time for which application threads were stopped: 0.0000564 seconds, Stopping threads took: 0.0000323 seconds
+2017-01-23T10:34:59.065-0500: 14.686: Total time for which application threads were stopped: 0.0000539 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T10:34:59.067-0500: 14.688: Total time for which application threads were stopped: 0.0000572 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:34:59.071-0500: 14.692: Total time for which application threads were stopped: 0.0000733 seconds, Stopping threads took: 0.0000172 seconds
+2017-01-23T10:34:59.072-0500: 14.693: Total time for which application threads were stopped: 0.0000301 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T10:34:59.072-0500: 14.693: Total time for which application threads were stopped: 0.0000150 seconds, Stopping threads took: 0.0000044 seconds
+2017-01-23T10:34:59.072-0500: 14.693: Total time for which application threads were stopped: 0.0000143 seconds, Stopping threads took: 0.0000048 seconds
+2017-01-23T10:34:59.076-0500: 14.697: Total time for which application threads were stopped: 0.0000495 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T10:34:59.110-0500: 14.731: Total time for which application threads were stopped: 0.0001239 seconds, Stopping threads took: 0.0000429 seconds
+2017-01-23T10:34:59.116-0500: 14.737: Total time for which application threads were stopped: 0.0001342 seconds, Stopping threads took: 0.0000682 seconds
+2017-01-23T10:34:59.141-0500: 14.762: Total time for which application threads were stopped: 0.0001913 seconds, Stopping threads took: 0.0001316 seconds
+2017-01-23T10:34:59.148-0500: 14.769: Total time for which application threads were stopped: 0.0001778 seconds, Stopping threads took: 0.0001268 seconds
+2017-01-23T10:34:59.159-0500: 14.780: Total time for which application threads were stopped: 0.0000850 seconds, Stopping threads took: 0.0000209 seconds
+2017-01-23T10:34:59.176-0500: 14.797: Total time for which application threads were stopped: 0.0001056 seconds, Stopping threads took: 0.0000575 seconds
+{Heap before GC invocations=4 (full 0):
+ par new generation   total 109248K, used 101526K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  64% used [0x00000000e0360000, 0x00000000e1125900, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 20232K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+2017-01-23T10:34:59.208-0500: 14.829: [GC2017-01-23T10:34:59.208-0500: 14.829: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    1061880 bytes,    1061880 total
+- age   2:    2442000 bytes,    3503880 total
+- age   3:     583192 bytes,    4087072 total
+- age   4:    4511448 bytes,    8598520 total
+- age   5:    2171512 bytes,   10770032 total
+: 101526K->13621K(109248K), 0.0139435 secs] 101526K->13621K(502464K), 0.0140604 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=5 (full 0):
+ par new generation   total 109248K, used 13621K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  62% used [0x00000000e18b0000, 0x00000000e25fd5c0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 20232K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+}
+2017-01-23T10:34:59.222-0500: 14.843: Total time for which application threads were stopped: 0.0142998 seconds, Stopping threads took: 0.0000568 seconds
+2017-01-23T10:34:59.231-0500: 14.852: Total time for which application threads were stopped: 0.0001177 seconds, Stopping threads took: 0.0000279 seconds
+2017-01-23T10:34:59.240-0500: 14.861: Total time for which application threads were stopped: 0.0000561 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T10:34:59.283-0500: 14.904: Total time for which application threads were stopped: 0.0000517 seconds, Stopping threads took: 0.0000154 seconds
+2017-01-23T10:34:59.288-0500: 14.909: Total time for which application threads were stopped: 0.0000718 seconds, Stopping threads took: 0.0000367 seconds
+2017-01-23T10:34:59.293-0500: 14.914: Total time for which application threads were stopped: 0.0000348 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T10:34:59.294-0500: 14.915: Total time for which application threads were stopped: 0.0000150 seconds, Stopping threads took: 0.0000070 seconds
+2017-01-23T10:34:59.295-0500: 14.916: Total time for which application threads were stopped: 0.0000227 seconds, Stopping threads took: 0.0000062 seconds
+2017-01-23T10:34:59.295-0500: 14.916: Total time for which application threads were stopped: 0.0000205 seconds, Stopping threads took: 0.0000051 seconds
+2017-01-23T10:34:59.295-0500: 14.916: Total time for which application threads were stopped: 0.0000213 seconds, Stopping threads took: 0.0000059 seconds
+2017-01-23T10:34:59.297-0500: 14.918: Total time for which application threads were stopped: 0.0001001 seconds, Stopping threads took: 0.0000194 seconds
+2017-01-23T10:34:59.319-0500: 14.940: Total time for which application threads were stopped: 0.0001015 seconds, Stopping threads took: 0.0000081 seconds
+{Heap before GC invocations=5 (full 0):
+ par new generation   total 109248K, used 101045K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  62% used [0x00000000e18b0000, 0x00000000e25fd5c0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 20870K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+2017-01-23T10:34:59.463-0500: 15.084: [GC2017-01-23T10:34:59.463-0500: 15.084: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:     853976 bytes,     853976 total
+- age   2:     151864 bytes,    1005840 total
+- age   3:    2441936 bytes,    3447776 total
+- age   4:     583168 bytes,    4030944 total
+- age   5:    4509552 bytes,    8540496 total
+- age   6:    2171416 bytes,   10711912 total
+: 101045K->12956K(109248K), 0.0175759 secs] 101045K->12956K(502464K), 0.0177453 secs] [Times: user=0.00 sys=0.00, real=0.02 secs] 
+Heap after GC invocations=6 (full 0):
+ par new generation   total 109248K, used 12956K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  59% used [0x00000000e0360000, 0x00000000e1007010, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 20870K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+}
+2017-01-23T10:34:59.481-0500: 15.102: Total time for which application threads were stopped: 0.0183123 seconds, Stopping threads took: 0.0001972 seconds
+2017-01-23T10:34:59.487-0500: 15.108: Total time for which application threads were stopped: 0.0000869 seconds, Stopping threads took: 0.0000246 seconds
+2017-01-23T10:34:59.487-0500: 15.108: Total time for which application threads were stopped: 0.0000473 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T10:34:59.488-0500: 15.109: Total time for which application threads were stopped: 0.0000498 seconds, Stopping threads took: 0.0000147 seconds
+{Heap before GC invocations=6 (full 0):
+ par new generation   total 109248K, used 100380K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  59% used [0x00000000e0360000, 0x00000000e1007010, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 21012K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+2017-01-23T10:34:59.607-0500: 15.228: [GC2017-01-23T10:34:59.607-0500: 15.228: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    1326080 bytes,    1326080 total
+- age   2:     118016 bytes,    1444096 total
+- age   3:     151736 bytes,    1595832 total
+- age   4:    2441912 bytes,    4037744 total
+- age   5:     582744 bytes,    4620488 total
+- age   6:    4508488 bytes,    9128976 total
+- age   7:    2171416 bytes,   11300392 total
+: 100380K->15997K(109248K), 0.0087343 secs] 100380K->15997K(502464K), 0.0088255 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=7 (full 0):
+ par new generation   total 109248K, used 15997K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  73% used [0x00000000e18b0000, 0x00000000e284f4f8, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 21012K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+}
+2017-01-23T10:34:59.616-0500: 15.237: Total time for which application threads were stopped: 0.0090513 seconds, Stopping threads took: 0.0000546 seconds
+{Heap before GC invocations=7 (full 0):
+ par new generation   total 109248K, used 103421K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  73% used [0x00000000e18b0000, 0x00000000e284f4f8, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 21052K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+2017-01-23T10:34:59.672-0500: 15.293: [GC2017-01-23T10:34:59.672-0500: 15.293: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:     325192 bytes,     325192 total
+- age   2:      85624 bytes,     410816 total
+- age   3:     117200 bytes,     528016 total
+- age   4:     151560 bytes,     679576 total
+- age   5:    2441840 bytes,    3121416 total
+- age   6:     582744 bytes,    3704160 total
+- age   7:    4507424 bytes,    8211584 total
+- age   8:    2171416 bytes,   10383000 total
+: 103421K->12847K(109248K), 0.0078634 secs] 103421K->12847K(502464K), 0.0079451 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=8 (full 0):
+ par new generation   total 109248K, used 12847K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  58% used [0x00000000e0360000, 0x00000000e0febd00, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21248K, used 21052K [0x00000000fae00000, 0x00000000fc2c0000, 0x0000000100000000)
+}
+2017-01-23T10:34:59.680-0500: 15.301: Total time for which application threads were stopped: 0.0081863 seconds, Stopping threads took: 0.0000997 seconds
+{Heap before GC invocations=8 (full 0):
+ par new generation   total 109248K, used 100271K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  58% used [0x00000000e0360000, 0x00000000e0febd00, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 0K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21824K, used 21632K [0x00000000fae00000, 0x00000000fc350000, 0x0000000100000000)
+2017-01-23T10:34:59.831-0500: 15.452: [GC2017-01-23T10:34:59.831-0500: 15.452: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:     648720 bytes,     648720 total
+- age   2:      91016 bytes,     739736 total
+- age   3:      85624 bytes,     825360 total
+- age   4:     117120 bytes,     942480 total
+- age   5:     151480 bytes,    1093960 total
+- age   6:    2441840 bytes,    3535800 total
+- age   7:     582744 bytes,    4118544 total
+- age   8:    4507208 bytes,    8625752 total
+: 100271K->13815K(109248K), 0.0119056 secs] 100271K->16161K(502464K), 0.0119858 secs] [Times: user=0.08 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=9 (full 0):
+ par new generation   total 109248K, used 13815K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  63% used [0x00000000e18b0000, 0x00000000e262dff0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 2345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 21824K, used 21632K [0x00000000fae00000, 0x00000000fc350000, 0x0000000100000000)
+}
+2017-01-23T10:34:59.843-0500: 15.464: Total time for which application threads were stopped: 0.0122362 seconds, Stopping threads took: 0.0000960 seconds
+2017-01-23T10:34:59.866-0500: 15.487: Total time for which application threads were stopped: 0.0000704 seconds, Stopping threads took: 0.0000268 seconds
+2017-01-23T10:34:59.866-0500: 15.487: Total time for which application threads were stopped: 0.0000301 seconds, Stopping threads took: 0.0000066 seconds
+2017-01-23T10:34:59.866-0500: 15.487: Total time for which application threads were stopped: 0.0000403 seconds, Stopping threads took: 0.0000202 seconds
+2017-01-23T10:34:59.882-0500: 15.503: Total time for which application threads were stopped: 0.0000557 seconds, Stopping threads took: 0.0000187 seconds
+2017-01-23T10:34:59.897-0500: 15.518: Total time for which application threads were stopped: 0.0001356 seconds, Stopping threads took: 0.0000378 seconds
+2017-01-23T10:34:59.897-0500: 15.519: Total time for which application threads were stopped: 0.0001030 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T10:34:59.898-0500: 15.519: Total time for which application threads were stopped: 0.0000979 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T10:34:59.919-0500: 15.540: Total time for which application threads were stopped: 0.0001067 seconds, Stopping threads took: 0.0000436 seconds
+2017-01-23T10:34:59.974-0500: 15.595: Total time for which application threads were stopped: 0.0002049 seconds, Stopping threads took: 0.0000700 seconds
+2017-01-23T10:35:00.022-0500: 15.643: Total time for which application threads were stopped: 0.0001767 seconds, Stopping threads took: 0.0000935 seconds
+2017-01-23T10:35:00.101-0500: 15.722: Total time for which application threads were stopped: 0.0001521 seconds, Stopping threads took: 0.0000407 seconds
+2017-01-23T10:35:00.232-0500: 15.853: Total time for which application threads were stopped: 0.0002280 seconds, Stopping threads took: 0.0001184 seconds
+2017-01-23T10:35:00.236-0500: 15.857: Total time for which application threads were stopped: 0.0002020 seconds, Stopping threads took: 0.0000762 seconds
+2017-01-23T10:35:00.241-0500: 15.861: Total time for which application threads were stopped: 0.0006389 seconds, Stopping threads took: 0.0005084 seconds
+2017-01-23T10:35:00.243-0500: 15.864: Total time for which application threads were stopped: 0.0000847 seconds, Stopping threads took: 0.0000352 seconds
+2017-01-23T10:35:00.246-0500: 15.867: Total time for which application threads were stopped: 0.0001745 seconds, Stopping threads took: 0.0001327 seconds
+2017-01-23T10:35:00.358-0500: 15.979: Total time for which application threads were stopped: 0.0001774 seconds, Stopping threads took: 0.0000858 seconds
+2017-01-23T10:35:00.359-0500: 15.980: Total time for which application threads were stopped: 0.0006081 seconds, Stopping threads took: 0.0005362 seconds
+2017-01-23T10:35:00.448-0500: 16.069: Total time for which application threads were stopped: 0.0000755 seconds, Stopping threads took: 0.0000275 seconds
+2017-01-23T10:35:00.645-0500: 16.266: Total time for which application threads were stopped: 0.0001653 seconds, Stopping threads took: 0.0000293 seconds
+2017-01-23T10:35:00.645-0500: 16.266: Total time for which application threads were stopped: 0.0000766 seconds, Stopping threads took: 0.0000220 seconds
+2017-01-23T10:35:00.645-0500: 16.266: Total time for which application threads were stopped: 0.0000517 seconds, Stopping threads took: 0.0000198 seconds
+2017-01-23T10:35:00.716-0500: 16.337: Total time for which application threads were stopped: 0.0007668 seconds, Stopping threads took: 0.0006458 seconds
+2017-01-23T10:35:00.744-0500: 16.365: Total time for which application threads were stopped: 0.0000711 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T10:35:00.796-0500: 16.417: Total time for which application threads were stopped: 0.0001459 seconds, Stopping threads took: 0.0000154 seconds
+2017-01-23T10:35:01.630-0500: 17.251: Total time for which application threads were stopped: 0.0001155 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T10:35:01.631-0500: 17.252: Total time for which application threads were stopped: 0.0000880 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T10:35:01.631-0500: 17.252: Total time for which application threads were stopped: 0.0000253 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T10:35:01.654-0500: 17.275: Total time for which application threads were stopped: 0.0000524 seconds, Stopping threads took: 0.0000154 seconds
+2017-01-23T10:35:01.968-0500: 17.589: Total time for which application threads were stopped: 0.0001213 seconds, Stopping threads took: 0.0000374 seconds
+2017-01-23T10:35:02.114-0500: 17.735: Total time for which application threads were stopped: 0.0002199 seconds, Stopping threads took: 0.0001023 seconds
+2017-01-23T10:35:02.198-0500: 17.819: Total time for which application threads were stopped: 0.0003116 seconds, Stopping threads took: 0.0000883 seconds
+2017-01-23T10:35:02.284-0500: 17.905: Total time for which application threads were stopped: 0.0000905 seconds, Stopping threads took: 0.0000304 seconds
+2017-01-23T10:35:02.297-0500: 17.918: Total time for which application threads were stopped: 0.0001301 seconds, Stopping threads took: 0.0000528 seconds
+2017-01-23T10:35:02.298-0500: 17.919: Total time for which application threads were stopped: 0.0001147 seconds, Stopping threads took: 0.0000345 seconds
+2017-01-23T10:35:02.299-0500: 17.920: Total time for which application threads were stopped: 0.0001191 seconds, Stopping threads took: 0.0000660 seconds
+2017-01-23T10:35:02.357-0500: 17.978: Total time for which application threads were stopped: 0.0000711 seconds, Stopping threads took: 0.0000444 seconds
+2017-01-23T10:35:02.373-0500: 17.994: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000187 seconds
+2017-01-23T10:35:02.393-0500: 18.014: Total time for which application threads were stopped: 0.0001026 seconds, Stopping threads took: 0.0000564 seconds
+2017-01-23T10:35:02.459-0500: 18.080: Total time for which application threads were stopped: 0.0000491 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:35:02.460-0500: 18.081: Total time for which application threads were stopped: 0.0000213 seconds, Stopping threads took: 0.0000084 seconds
+2017-01-23T10:35:02.460-0500: 18.081: Total time for which application threads were stopped: 0.0000139 seconds, Stopping threads took: 0.0000055 seconds
+{Heap before GC invocations=9 (full 0):
+ par new generation   total 109248K, used 101239K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  63% used [0x00000000e18b0000, 0x00000000e262dff0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 2345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 24896K, used 24880K [0x00000000fae00000, 0x00000000fc650000, 0x0000000100000000)
+2017-01-23T10:35:02.499-0500: 18.120: [GC2017-01-23T10:35:02.499-0500: 18.120: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    4713336 bytes,    4713336 total
+- age   2:     145536 bytes,    4858872 total
+- age   3:      88712 bytes,    4947584 total
+- age   4:      84704 bytes,    5032288 total
+- age   5:     115992 bytes,    5148280 total
+- age   6:     149080 bytes,    5297360 total
+- age   7:     256576 bytes,    5553936 total
+- age   8:     580960 bytes,    6134896 total
+: 101239K->8816K(109248K), 0.0123414 secs] 103585K->15819K(502464K), 0.0124279 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=10 (full 0):
+ par new generation   total 109248K, used 8816K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  40% used [0x00000000e0360000, 0x00000000e0bfc300, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 7003K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 24896K, used 24880K [0x00000000fae00000, 0x00000000fc650000, 0x0000000100000000)
+}
+2017-01-23T10:35:02.511-0500: 18.132: Total time for which application threads were stopped: 0.0125617 seconds, Stopping threads took: 0.0000161 seconds
+2017-01-23T10:35:02.583-0500: 18.204: Total time for which application threads were stopped: 0.0000927 seconds, Stopping threads took: 0.0000627 seconds
+2017-01-23T10:35:02.584-0500: 18.205: Total time for which application threads were stopped: 0.0000751 seconds, Stopping threads took: 0.0000433 seconds
+2017-01-23T10:35:02.584-0500: 18.205: Total time for which application threads were stopped: 0.0000235 seconds, Stopping threads took: 0.0000070 seconds
+2017-01-23T10:35:02.584-0500: 18.205: Total time for which application threads were stopped: 0.0000249 seconds, Stopping threads took: 0.0000073 seconds
+2017-01-23T10:35:02.584-0500: 18.205: Total time for which application threads were stopped: 0.0000363 seconds, Stopping threads took: 0.0000088 seconds
+2017-01-23T10:35:02.644-0500: 18.265: Total time for which application threads were stopped: 0.0001932 seconds, Stopping threads took: 0.0001070 seconds
+2017-01-23T10:35:02.645-0500: 18.266: Total time for which application threads were stopped: 0.0001796 seconds, Stopping threads took: 0.0000139 seconds
+2017-01-23T10:35:02.663-0500: 18.284: Total time for which application threads were stopped: 0.0000894 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T10:35:02.665-0500: 18.286: Total time for which application threads were stopped: 0.0001125 seconds, Stopping threads took: 0.0000462 seconds
+2017-01-23T10:35:02.677-0500: 18.298: Total time for which application threads were stopped: 0.0000531 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T10:35:02.680-0500: 18.301: Total time for which application threads were stopped: 0.0001037 seconds, Stopping threads took: 0.0000198 seconds
+2017-01-23T10:35:02.703-0500: 18.324: Total time for which application threads were stopped: 0.0003717 seconds, Stopping threads took: 0.0000971 seconds
+2017-01-23T10:35:02.703-0500: 18.324: Total time for which application threads were stopped: 0.0001906 seconds, Stopping threads took: 0.0001492 seconds
+2017-01-23T10:35:02.721-0500: 18.342: Total time for which application threads were stopped: 0.0001528 seconds, Stopping threads took: 0.0000828 seconds
+2017-01-23T10:35:02.722-0500: 18.343: Total time for which application threads were stopped: 0.0000975 seconds, Stopping threads took: 0.0000561 seconds
+2017-01-23T10:35:03.025-0500: 18.646: Total time for which application threads were stopped: 0.0001389 seconds, Stopping threads took: 0.0000418 seconds
+2017-01-23T10:35:04.025-0500: 19.646: Total time for which application threads were stopped: 0.0003541 seconds, Stopping threads took: 0.0000425 seconds
+2017-01-23T10:35:04.835-0500: 20.456: Total time for which application threads were stopped: 0.0002602 seconds, Stopping threads took: 0.0000484 seconds
+2017-01-23T10:35:04.838-0500: 20.459: Total time for which application threads were stopped: 0.0000964 seconds, Stopping threads took: 0.0000275 seconds
+2017-01-23T10:35:04.884-0500: 20.505: Total time for which application threads were stopped: 0.0001679 seconds, Stopping threads took: 0.0000396 seconds
+2017-01-23T10:35:04.936-0500: 20.557: Total time for which application threads were stopped: 0.0001726 seconds, Stopping threads took: 0.0000436 seconds
+2017-01-23T10:35:04.996-0500: 20.617: Total time for which application threads were stopped: 0.0000729 seconds, Stopping threads took: 0.0000293 seconds
+2017-01-23T10:35:05.005-0500: 20.625: Total time for which application threads were stopped: 0.0000770 seconds, Stopping threads took: 0.0000282 seconds
+2017-01-23T10:35:05.006-0500: 20.627: Total time for which application threads were stopped: 0.0000641 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T10:35:05.039-0500: 20.660: Total time for which application threads were stopped: 0.0000616 seconds, Stopping threads took: 0.0000213 seconds
+2017-01-23T10:35:05.039-0500: 20.660: Total time for which application threads were stopped: 0.0000242 seconds, Stopping threads took: 0.0000066 seconds
+2017-01-23T10:35:05.039-0500: 20.660: Total time for which application threads were stopped: 0.0000235 seconds, Stopping threads took: 0.0000073 seconds
+2017-01-23T10:35:05.039-0500: 20.660: Total time for which application threads were stopped: 0.0000224 seconds, Stopping threads took: 0.0000066 seconds
+2017-01-23T10:35:05.057-0500: 20.677: Total time for which application threads were stopped: 0.0000744 seconds, Stopping threads took: 0.0000253 seconds
+2017-01-23T10:35:05.166-0500: 20.787: Total time for which application threads were stopped: 0.0000770 seconds, Stopping threads took: 0.0000202 seconds
+2017-01-23T10:35:05.189-0500: 20.810: Total time for which application threads were stopped: 0.0001144 seconds, Stopping threads took: 0.0000803 seconds
+2017-01-23T10:35:05.290-0500: 20.911: Total time for which application threads were stopped: 0.0000883 seconds, Stopping threads took: 0.0000198 seconds
+2017-01-23T10:35:05.318-0500: 20.939: Total time for which application threads were stopped: 0.0001070 seconds, Stopping threads took: 0.0000696 seconds
+2017-01-23T10:35:05.318-0500: 20.939: Total time for which application threads were stopped: 0.0000876 seconds, Stopping threads took: 0.0000550 seconds
+2017-01-23T10:35:05.395-0500: 21.016: Total time for which application threads were stopped: 0.0002991 seconds, Stopping threads took: 0.0000927 seconds
+2017-01-23T10:35:05.408-0500: 21.029: Total time for which application threads were stopped: 0.0001430 seconds, Stopping threads took: 0.0000282 seconds
+{Heap before GC invocations=10 (full 0):
+ par new generation   total 109248K, used 96240K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  40% used [0x00000000e0360000, 0x00000000e0bfc300, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 7003K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 27968K, used 27910K [0x00000000fae00000, 0x00000000fc950000, 0x0000000100000000)
+2017-01-23T10:35:05.526-0500: 21.147: [GC2017-01-23T10:35:05.526-0500: 21.147: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:   13374432 bytes,   13374432 total
+- age   2:    2106720 bytes,   15481152 total
+- age   3:     145488 bytes,   15626640 total
+- age   4:      88584 bytes,   15715224 total
+- age   5:      83984 bytes,   15799208 total
+- age   6:     115640 bytes,   15914848 total
+- age   7:     145448 bytes,   16060296 total
+- age   8:     254768 bytes,   16315064 total
+: 96240K->16920K(109248K), 0.0349667 secs] 103243K->24487K(502464K), 0.0351280 secs] [Times: user=0.12 sys=0.00, real=0.04 secs] 
+Heap after GC invocations=11 (full 0):
+ par new generation   total 109248K, used 16920K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  77% used [0x00000000e18b0000, 0x00000000e29360f0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 7566K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 27968K, used 27910K [0x00000000fae00000, 0x00000000fc950000, 0x0000000100000000)
+}
+2017-01-23T10:35:05.561-0500: 21.182: Total time for which application threads were stopped: 0.0669667 seconds, Stopping threads took: 0.0314600 seconds
+2017-01-23T10:35:05.562-0500: 21.183: Total time for which application threads were stopped: 0.0001147 seconds, Stopping threads took: 0.0000825 seconds
+{Heap before GC invocations=11 (full 0):
+ par new generation   total 109248K, used 104344K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  77% used [0x00000000e18b0000, 0x00000000e29360f0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 7566K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 27968K, used 27945K [0x00000000fae00000, 0x00000000fc950000, 0x0000000100000000)
+2017-01-23T10:35:05.700-0500: 21.321: [GC2017-01-23T10:35:05.700-0500: 21.321: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    1529616 bytes,    1529616 total
+- age   2:   10784952 bytes,   12314568 total
+- age   3:    2106512 bytes,   14421080 total
+- age   4:     145488 bytes,   14566568 total
+- age   5:      88584 bytes,   14655152 total
+- age   6:      83984 bytes,   14739136 total
+- age   7:     115640 bytes,   14854776 total
+- age   8:     145256 bytes,   15000032 total
+: 104344K->18848K(109248K), 0.0086525 secs] 111911K->26667K(502464K), 0.0087152 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=12 (full 0):
+ par new generation   total 109248K, used 18848K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  86% used [0x00000000e0360000, 0x00000000e15c8260, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 7818K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 27968K, used 27945K [0x00000000fae00000, 0x00000000fc950000, 0x0000000100000000)
+}
+2017-01-23T10:35:05.709-0500: 21.330: Total time for which application threads were stopped: 0.0088944 seconds, Stopping threads took: 0.0000422 seconds
+2017-01-23T10:35:05.710-0500: 21.331: Total time for which application threads were stopped: 0.0000553 seconds, Stopping threads took: 0.0000202 seconds
+2017-01-23T10:35:05.725-0500: 21.346: Total time for which application threads were stopped: 0.0000759 seconds, Stopping threads took: 0.0000301 seconds
+{Heap before GC invocations=12 (full 0):
+ par new generation   total 109248K, used 106272K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  86% used [0x00000000e0360000, 0x00000000e15c8260, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 7818K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 28160K, used 27971K [0x00000000fae00000, 0x00000000fc980000, 0x0000000100000000)
+2017-01-23T10:35:05.794-0500: 21.415: [GC2017-01-23T10:35:05.794-0500: 21.415: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:     970656 bytes,     970656 total
+- age   2:     750184 bytes,    1720840 total
+- age   3:   10782856 bytes,   12503696 total
+- age   4:    2104800 bytes,   14608496 total
+- age   5:     145488 bytes,   14753984 total
+- age   6:      88584 bytes,   14842568 total
+- age   7:      83984 bytes,   14926552 total
+- age   8:     115544 bytes,   15042096 total
+: 106272K->20518K(109248K), 0.0076533 secs] 114091K->28483K(502464K), 0.0077307 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=13 (full 0):
+ par new generation   total 109248K, used 20518K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  94% used [0x00000000e18b0000, 0x00000000e2cb9a30, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 7964K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 28160K, used 27971K [0x00000000fae00000, 0x00000000fc980000, 0x0000000100000000)
+}
+2017-01-23T10:35:05.801-0500: 21.422: Total time for which application threads were stopped: 0.0145747 seconds, Stopping threads took: 0.0066904 seconds
+2017-01-23T10:35:05.802-0500: 21.423: Total time for which application threads were stopped: 0.0001847 seconds, Stopping threads took: 0.0000440 seconds
+{Heap before GC invocations=13 (full 0):
+ par new generation   total 109248K, used 107942K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  94% used [0x00000000e18b0000, 0x00000000e2cb9a30, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 7964K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 28160K, used 28004K [0x00000000fae00000, 0x00000000fc980000, 0x0000000100000000)
+2017-01-23T10:35:05.939-0500: 21.560: [GC2017-01-23T10:35:05.939-0500: 21.560: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:     520672 bytes,     520672 total
+- age   2:     610952 bytes,    1131624 total
+- age   3:     738488 bytes,    1870112 total
+- age   4:   10782416 bytes,   12652528 total
+- age   5:    2104576 bytes,   14757104 total
+- age   6:     145488 bytes,   14902592 total
+- age   7:      88584 bytes,   14991176 total
+- age   8:      83888 bytes,   15075064 total
+: 107942K->17800K(109248K), 0.0091503 secs] 115907K->25881K(502464K), 0.0092291 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=14 (full 0):
+ par new generation   total 109248K, used 17800K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  81% used [0x00000000e0360000, 0x00000000e14c2278, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 8081K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 28160K, used 28004K [0x00000000fae00000, 0x00000000fc980000, 0x0000000100000000)
+}
+2017-01-23T10:35:05.948-0500: 21.569: Total time for which application threads were stopped: 0.0094494 seconds, Stopping threads took: 0.0000176 seconds
+2017-01-23T10:35:05.952-0500: 21.573: Total time for which application threads were stopped: 0.0000667 seconds, Stopping threads took: 0.0000367 seconds
+2017-01-23T10:35:06.793-0500: 22.414: Total time for which application threads were stopped: 0.0002830 seconds, Stopping threads took: 0.0000968 seconds
+2017-01-23T10:35:07.499-0500: 23.120: Total time for which application threads were stopped: 0.0002130 seconds, Stopping threads took: 0.0000290 seconds
+2017-01-23T10:35:07.504-0500: 23.125: Total time for which application threads were stopped: 0.0002093 seconds, Stopping threads took: 0.0001250 seconds
+2017-01-23T10:35:09.066-0500: 24.687: Total time for which application threads were stopped: 0.0001378 seconds, Stopping threads took: 0.0000264 seconds
+2017-01-23T10:35:09.615-0500: 25.236: Total time for which application threads were stopped: 0.0001276 seconds, Stopping threads took: 0.0000172 seconds
+2017-01-23T10:35:09.616-0500: 25.237: Total time for which application threads were stopped: 0.0000374 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T10:35:09.616-0500: 25.237: Total time for which application threads were stopped: 0.0001492 seconds, Stopping threads took: 0.0001228 seconds
+2017-01-23T10:35:09.617-0500: 25.238: Total time for which application threads were stopped: 0.0000916 seconds, Stopping threads took: 0.0000660 seconds
+2017-01-23T10:35:09.618-0500: 25.239: Total time for which application threads were stopped: 0.0001129 seconds, Stopping threads took: 0.0000847 seconds
+2017-01-23T10:35:09.618-0500: 25.239: Total time for which application threads were stopped: 0.0000290 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T10:35:09.937-0500: 25.558: Total time for which application threads were stopped: 0.0000964 seconds, Stopping threads took: 0.0000326 seconds
+2017-01-23T10:35:10.033-0500: 25.654: Total time for which application threads were stopped: 0.0001825 seconds, Stopping threads took: 0.0001114 seconds
+2017-01-23T10:35:10.034-0500: 25.655: Total time for which application threads were stopped: 0.0001778 seconds, Stopping threads took: 0.0001085 seconds
+2017-01-23T10:35:10.069-0500: 25.690: Total time for which application threads were stopped: 0.0001213 seconds, Stopping threads took: 0.0000561 seconds
+2017-01-23T10:35:10.070-0500: 25.691: Total time for which application threads were stopped: 0.0006990 seconds, Stopping threads took: 0.0006477 seconds
+2017-01-23T10:35:11.070-0500: 26.691: Total time for which application threads were stopped: 0.0002038 seconds, Stopping threads took: 0.0000345 seconds
+2017-01-23T10:35:11.223-0500: 26.844: Total time for which application threads were stopped: 0.0000770 seconds, Stopping threads took: 0.0000253 seconds
+2017-01-23T10:35:15.090-0500: 30.711: Total time for which application threads were stopped: 0.0002544 seconds, Stopping threads took: 0.0000400 seconds
+2017-01-23T10:35:15.227-0500: 30.848: Total time for which application threads were stopped: 0.0000828 seconds, Stopping threads took: 0.0000304 seconds
+2017-01-23T10:35:15.320-0500: 30.941: Total time for which application threads were stopped: 0.0000656 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:35:15.321-0500: 30.941: Total time for which application threads were stopped: 0.0000345 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:35:15.432-0500: 31.053: Total time for which application threads were stopped: 0.0001265 seconds, Stopping threads took: 0.0000440 seconds
+2017-01-23T10:35:15.432-0500: 31.053: Total time for which application threads were stopped: 0.0003746 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:35:15.433-0500: 31.054: Total time for which application threads were stopped: 0.0000689 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T10:35:15.433-0500: 31.054: Total time for which application threads were stopped: 0.0000990 seconds, Stopping threads took: 0.0000345 seconds
+2017-01-23T10:35:15.504-0500: 31.124: Total time for which application threads were stopped: 0.0000638 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T10:35:15.504-0500: 31.125: Total time for which application threads were stopped: 0.0000385 seconds, Stopping threads took: 0.0000121 seconds
+2017-01-23T10:35:15.504-0500: 31.125: Total time for which application threads were stopped: 0.0000385 seconds, Stopping threads took: 0.0000121 seconds
+2017-01-23T10:35:15.521-0500: 31.142: Total time for which application threads were stopped: 0.0000594 seconds, Stopping threads took: 0.0000202 seconds
+2017-01-23T10:35:15.522-0500: 31.143: Total time for which application threads were stopped: 0.0000418 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T10:35:15.523-0500: 31.144: Total time for which application threads were stopped: 0.0000411 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T10:35:15.523-0500: 31.144: Total time for which application threads were stopped: 0.0000385 seconds, Stopping threads took: 0.0000121 seconds
+2017-01-23T10:35:15.523-0500: 31.144: Total time for which application threads were stopped: 0.0000286 seconds, Stopping threads took: 0.0000095 seconds
+2017-01-23T10:35:15.533-0500: 31.154: Total time for which application threads were stopped: 0.0000594 seconds, Stopping threads took: 0.0000213 seconds
+2017-01-23T10:35:15.533-0500: 31.154: Total time for which application threads were stopped: 0.0001928 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T10:35:15.534-0500: 31.154: Total time for which application threads were stopped: 0.0000425 seconds, Stopping threads took: 0.0000147 seconds
+2017-01-23T10:35:15.612-0500: 31.233: Total time for which application threads were stopped: 0.0001356 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T10:35:15.612-0500: 31.233: Total time for which application threads were stopped: 0.0000191 seconds, Stopping threads took: 0.0000059 seconds
+2017-01-23T10:35:15.614-0500: 31.235: Total time for which application threads were stopped: 0.0000209 seconds, Stopping threads took: 0.0000070 seconds
+2017-01-23T10:35:15.615-0500: 31.236: Total time for which application threads were stopped: 0.0000220 seconds, Stopping threads took: 0.0000066 seconds
+2017-01-23T10:35:15.785-0500: 31.406: Total time for which application threads were stopped: 0.0000630 seconds, Stopping threads took: 0.0000238 seconds
+{Heap before GC invocations=14 (full 0):
+ par new generation   total 109248K, used 105224K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  81% used [0x00000000e0360000, 0x00000000e14c2278, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 8081K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 30848K, used 30681K [0x00000000fae00000, 0x00000000fcc20000, 0x0000000100000000)
+2017-01-23T10:35:16.198-0500: 31.819: [GC2017-01-23T10:35:16.198-0500: 31.819: [ParNew
+Desired survivor size 20112992 bytes, new threshold 5 (max 8)
+- age   1:    8646200 bytes,    8646200 total
+- age   2:     455600 bytes,    9101800 total
+- age   3:     147888 bytes,    9249688 total
+- age   4:     470592 bytes,    9720280 total
+- age   5:   10418384 bytes,   20138664 total
+- age   6:    1981680 bytes,   22120344 total
+- age   7:     129912 bytes,   22250256 total
+- age   8:      77016 bytes,   22327272 total
+: 105224K->21824K(109248K), 0.0149200 secs] 113305K->32482K(502464K), 0.0150065 secs] [Times: user=0.06 sys=0.00, real=0.02 secs] 
+Heap after GC invocations=15 (full 0):
+ par new generation   total 109248K, used 21824K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K, 100% used [0x00000000e18b0000, 0x00000000e2e00000, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 10658K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 30848K, used 30681K [0x00000000fae00000, 0x00000000fcc20000, 0x0000000100000000)
+}
+2017-01-23T10:35:16.213-0500: 31.834: Total time for which application threads were stopped: 0.0152477 seconds, Stopping threads took: 0.0000183 seconds
+2017-01-23T10:35:21.472-0500: 37.093: Total time for which application threads were stopped: 0.0002782 seconds, Stopping threads took: 0.0000451 seconds
+2017-01-23T10:35:37.336-0500: 52.957: Total time for which application threads were stopped: 0.0003856 seconds, Stopping threads took: 0.0000411 seconds
+2017-01-23T10:35:37.338-0500: 52.959: Total time for which application threads were stopped: 0.0000773 seconds, Stopping threads took: 0.0000341 seconds
+2017-01-23T10:35:37.353-0500: 52.974: Total time for which application threads were stopped: 0.0000858 seconds, Stopping threads took: 0.0000290 seconds
+2017-01-23T10:35:38.353-0500: 53.974: Total time for which application threads were stopped: 0.0004237 seconds, Stopping threads took: 0.0000462 seconds
+2017-01-23T10:35:42.353-0500: 57.974: Total time for which application threads were stopped: 0.0003893 seconds, Stopping threads took: 0.0000455 seconds
+2017-01-23T10:35:49.863-0500: 65.484: Total time for which application threads were stopped: 0.0003006 seconds, Stopping threads took: 0.0000495 seconds
+2017-01-23T10:35:49.888-0500: 65.509: Total time for which application threads were stopped: 0.0003709 seconds, Stopping threads took: 0.0000352 seconds
+2017-01-23T10:35:49.934-0500: 65.555: Total time for which application threads were stopped: 0.0001173 seconds, Stopping threads took: 0.0000356 seconds
+2017-01-23T10:35:49.973-0500: 65.593: Total time for which application threads were stopped: 0.0001092 seconds, Stopping threads took: 0.0000392 seconds
+2017-01-23T10:35:49.974-0500: 65.595: Total time for which application threads were stopped: 0.0000759 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T10:35:49.975-0500: 65.596: Total time for which application threads were stopped: 0.0000759 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T10:35:49.978-0500: 65.598: Total time for which application threads were stopped: 0.0000649 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T10:35:49.988-0500: 65.609: Total time for which application threads were stopped: 0.0000876 seconds, Stopping threads took: 0.0000345 seconds
+2017-01-23T10:35:50.133-0500: 65.754: Total time for which application threads were stopped: 0.0000869 seconds, Stopping threads took: 0.0000172 seconds
+2017-01-23T10:35:50.160-0500: 65.781: Total time for which application threads were stopped: 0.0000407 seconds, Stopping threads took: 0.0000161 seconds
+2017-01-23T10:36:07.523-0500: 83.144: Total time for which application threads were stopped: 0.0002716 seconds, Stopping threads took: 0.0000422 seconds
+2017-01-23T10:36:19.678-0500: 95.299: Total time for which application threads were stopped: 0.0003863 seconds, Stopping threads took: 0.0000495 seconds
+2017-01-23T10:36:20.877-0500: 96.498: Total time for which application threads were stopped: 0.0003229 seconds, Stopping threads took: 0.0000367 seconds
+2017-01-23T10:36:20.877-0500: 96.498: Total time for which application threads were stopped: 0.0000715 seconds, Stopping threads took: 0.0000286 seconds
+2017-01-23T10:36:20.877-0500: 96.498: Total time for which application threads were stopped: 0.0000656 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T10:36:20.878-0500: 96.499: Total time for which application threads were stopped: 0.0000685 seconds, Stopping threads took: 0.0000260 seconds
+2017-01-23T10:36:24.878-0500: 100.499: Total time for which application threads were stopped: 0.0003530 seconds, Stopping threads took: 0.0000425 seconds
+2017-01-23T10:36:30.492-0500: 106.113: Total time for which application threads were stopped: 0.0004193 seconds, Stopping threads took: 0.0000433 seconds
+2017-01-23T10:36:31.492-0500: 107.113: Total time for which application threads were stopped: 0.0004138 seconds, Stopping threads took: 0.0000473 seconds
+2017-01-23T10:36:53.760-0500: 129.381: Total time for which application threads were stopped: 0.0001199 seconds, Stopping threads took: 0.0000194 seconds
+{Heap before GC invocations=15 (full 0):
+ par new generation   total 109248K, used 109248K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K, 100% used [0x00000000e18b0000, 0x00000000e2e00000, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 10658K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 31808K, used 31651K [0x00000000fae00000, 0x00000000fcd10000, 0x0000000100000000)
+2017-01-23T10:36:53.848-0500: 129.469: [GC2017-01-23T10:36:53.848-0500: 129.469: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    1525160 bytes,    1525160 total
+- age   2:    7899576 bytes,    9424736 total
+- age   3:     455528 bytes,    9880264 total
+- age   4:     147544 bytes,   10027808 total
+- age   5:     470480 bytes,   10498288 total
+: 109248K->21824K(109248K), 0.0228563 secs] 119906K->46169K(502464K), 0.0229402 secs] [Times: user=0.05 sys=0.00, real=0.02 secs] 
+Heap after GC invocations=16 (full 0):
+ par new generation   total 109248K, used 21824K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K, 100% used [0x00000000e0360000, 0x00000000e18b0000, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 24345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 31808K, used 31651K [0x00000000fae00000, 0x00000000fcd10000, 0x0000000100000000)
+}
+2017-01-23T10:36:53.871-0500: 129.492: Total time for which application threads were stopped: 0.0230960 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T10:36:53.876-0500: 129.497: Total time for which application threads were stopped: 0.0001825 seconds, Stopping threads took: 0.0000172 seconds
+2017-01-23T10:37:01.078-0500: 136.699: Total time for which application threads were stopped: 0.0002910 seconds, Stopping threads took: 0.0000389 seconds
+2017-01-23T10:37:02.078-0500: 137.699: Total time for which application threads were stopped: 0.0004234 seconds, Stopping threads took: 0.0000418 seconds
+2017-01-23T10:37:15.078-0500: 150.699: Total time for which application threads were stopped: 0.0003401 seconds, Stopping threads took: 0.0000469 seconds
+2017-01-23T10:37:23.885-0500: 159.505: Total time for which application threads were stopped: 0.0005095 seconds, Stopping threads took: 0.0000594 seconds
+2017-01-23T10:37:23.900-0500: 159.520: Total time for which application threads were stopped: 0.0001206 seconds, Stopping threads took: 0.0000418 seconds
+2017-01-23T10:37:24.900-0500: 160.520: Total time for which application threads were stopped: 0.0003332 seconds, Stopping threads took: 0.0000458 seconds
+2017-01-23T10:37:30.271-0500: 165.892: Total time for which application threads were stopped: 0.0003035 seconds, Stopping threads took: 0.0000498 seconds
+{Heap before GC invocations=16 (full 0):
+ par new generation   total 109248K, used 109248K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K, 100% used [0x00000000e0360000, 0x00000000e18b0000, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 24345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31786K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+2017-01-23T10:37:30.398-0500: 166.018: [GC2017-01-23T10:37:30.398-0500: 166.018: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    2482008 bytes,    2482008 total
+- age   2:     503984 bytes,    2985992 total
+- age   3:    7884664 bytes,   10870656 total
+- age   4:     455480 bytes,   11326136 total
+- age   5:     147184 bytes,   11473320 total
+- age   6:     470480 bytes,   11943800 total
+: 109248K->16845K(109248K), 0.0128718 secs] 133593K->41190K(502464K), 0.0129766 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=17 (full 0):
+ par new generation   total 109248K, used 16845K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  77% used [0x00000000e18b0000, 0x00000000e2923540, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 24345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31786K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+}
+2017-01-23T10:37:30.411-0500: 166.031: Total time for which application threads were stopped: 0.0131525 seconds, Stopping threads took: 0.0000220 seconds
+2017-01-23T10:37:36.411-0500: 172.031: Total time for which application threads were stopped: 0.0004369 seconds, Stopping threads took: 0.0000429 seconds
+2017-01-23T10:38:31.254-0500: 226.874: Total time for which application threads were stopped: 0.0004611 seconds, Stopping threads took: 0.0001184 seconds
+2017-01-23T10:38:37.593-0500: 233.213: Total time for which application threads were stopped: 0.0003746 seconds, Stopping threads took: 0.0000414 seconds
+2017-01-23T10:38:42.817-0500: 238.437: Total time for which application threads were stopped: 0.0003889 seconds, Stopping threads took: 0.0000579 seconds
+2017-01-23T10:38:42.974-0500: 238.594: Total time for which application threads were stopped: 0.0000546 seconds, Stopping threads took: 0.0000180 seconds
+2017-01-23T10:39:06.874-0500: 262.494: Total time for which application threads were stopped: 0.0004461 seconds, Stopping threads took: 0.0000546 seconds
+{Heap before GC invocations=17 (full 0):
+ par new generation   total 109248K, used 104269K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  77% used [0x00000000e18b0000, 0x00000000e2923540, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 24345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31837K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+2017-01-23T10:39:10.400-0500: 266.020: [GC2017-01-23T10:39:10.400-0500: 266.021: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:     658552 bytes,     658552 total
+- age   2:     429256 bytes,    1087808 total
+- age   3:     503016 bytes,    1590824 total
+- age   4:    7850456 bytes,    9441280 total
+- age   5:     455456 bytes,    9896736 total
+- age   6:     147112 bytes,   10043848 total
+- age   7:     470480 bytes,   10514328 total
+: 104269K->13631K(109248K), 0.0101553 secs] 128614K->37976K(502464K), 0.0102558 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=18 (full 0):
+ par new generation   total 109248K, used 13631K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  62% used [0x00000000e0360000, 0x00000000e10afe38, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 24345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31837K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+}
+2017-01-23T10:39:10.411-0500: 266.031: Total time for which application threads were stopped: 0.0105714 seconds, Stopping threads took: 0.0000194 seconds
+2017-01-23T10:39:11.411-0500: 267.031: Total time for which application threads were stopped: 0.0003618 seconds, Stopping threads took: 0.0000447 seconds
+2017-01-23T10:39:13.411-0500: 269.031: Total time for which application threads were stopped: 0.0003783 seconds, Stopping threads took: 0.0000462 seconds
+{Heap before GC invocations=18 (full 0):
+ par new generation   total 109248K, used 101055K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  62% used [0x00000000e0360000, 0x00000000e10afe38, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 24345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31875K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+2017-01-23T10:39:33.182-0500: 288.802: [GC2017-01-23T10:39:33.182-0500: 288.802: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    2261992 bytes,    2261992 total
+- age   2:     270352 bytes,    2532344 total
+- age   3:     429024 bytes,    2961368 total
+- age   4:     503016 bytes,    3464384 total
+- age   5:    7850352 bytes,   11314736 total
+- age   6:     455456 bytes,   11770192 total
+- age   7:     147160 bytes,   11917352 total
+- age   8:     470504 bytes,   12387856 total
+: 101055K->13412K(109248K), 0.0127948 secs] 125400K->37757K(502464K), 0.0129418 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=19 (full 0):
+ par new generation   total 109248K, used 13412K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  61% used [0x00000000e18b0000, 0x00000000e25c92a0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 24345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31875K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+}
+2017-01-23T10:39:33.195-0500: 288.815: Total time for which application threads were stopped: 0.0133919 seconds, Stopping threads took: 0.0000315 seconds
+2017-01-23T10:39:34.195-0500: 289.815: Total time for which application threads were stopped: 0.0003746 seconds, Stopping threads took: 0.0000469 seconds
+2017-01-23T10:39:49.195-0500: 304.815: Total time for which application threads were stopped: 0.0004523 seconds, Stopping threads took: 0.0000517 seconds
+2017-01-23T10:39:58.195-0500: 313.815: Total time for which application threads were stopped: 0.0003724 seconds, Stopping threads took: 0.0000480 seconds
+{Heap before GC invocations=19 (full 0):
+ par new generation   total 109248K, used 100836K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  61% used [0x00000000e18b0000, 0x00000000e25c92a0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 24345K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31915K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+2017-01-23T10:40:36.706-0500: 352.326: [GC2017-01-23T10:40:36.706-0500: 352.326: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:     555088 bytes,     555088 total
+- age   2:     293696 bytes,     848784 total
+- age   3:     268960 bytes,    1117744 total
+- age   4:     428968 bytes,    1546712 total
+- age   5:     503016 bytes,    2049728 total
+- age   6:    7850280 bytes,    9900008 total
+- age   7:     455456 bytes,   10355464 total
+- age   8:     147088 bytes,   10502552 total
+: 100836K->13017K(109248K), 0.0164789 secs] 125181K->37827K(502464K), 0.0167215 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
+Heap after GC invocations=20 (full 0):
+ par new generation   total 109248K, used 13017K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  59% used [0x00000000e0360000, 0x00000000e10167b8, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 24809K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31915K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+}
+2017-01-23T10:40:36.722-0500: 352.342: Total time for which application threads were stopped: 0.0171144 seconds, Stopping threads took: 0.0000323 seconds
+2017-01-23T10:40:42.722-0500: 358.342: Total time for which application threads were stopped: 0.0004527 seconds, Stopping threads took: 0.0000484 seconds
+2017-01-23T10:40:43.722-0500: 359.342: Total time for which application threads were stopped: 0.0003339 seconds, Stopping threads took: 0.0000462 seconds
+2017-01-23T10:41:31.722-0500: 407.342: Total time for which application threads were stopped: 0.0004017 seconds, Stopping threads took: 0.0000568 seconds
+2017-01-23T10:41:34.722-0500: 410.342: Total time for which application threads were stopped: 0.0004065 seconds, Stopping threads took: 0.0000498 seconds
+2017-01-23T10:41:43.722-0500: 419.342: Total time for which application threads were stopped: 0.0002918 seconds, Stopping threads took: 0.0000389 seconds
+2017-01-23T10:41:43.886-0500: 419.506: Total time for which application threads were stopped: 0.0000858 seconds, Stopping threads took: 0.0000191 seconds
+2017-01-23T10:42:16.470-0500: 452.090: Total time for which application threads were stopped: 0.0003841 seconds, Stopping threads took: 0.0000597 seconds
+{Heap before GC invocations=20 (full 0):
+ par new generation   total 109248K, used 100441K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  59% used [0x00000000e0360000, 0x00000000e10167b8, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 24809K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31960K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+2017-01-23T10:42:19.752-0500: 455.371: [GC2017-01-23T10:42:19.752-0500: 455.371: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    2972240 bytes,    2972240 total
+- age   2:      14080 bytes,    2986320 total
+- age   3:     290600 bytes,    3276920 total
+- age   4:     268856 bytes,    3545776 total
+- age   5:     425720 bytes,    3971496 total
+- age   6:     502760 bytes,    4474256 total
+- age   7:    7850240 bytes,   12324496 total
+- age   8:     455456 bytes,   12779952 total
+: 100441K->15443K(109248K), 0.0234897 secs] 125251K->40399K(502464K), 0.0237081 secs] [Times: user=0.06 sys=0.00, real=0.02 secs] 
+Heap after GC invocations=21 (full 0):
+ par new generation   total 109248K, used 15443K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  70% used [0x00000000e18b0000, 0x00000000e27c4f70, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 24955K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32000K, used 31960K [0x00000000fae00000, 0x00000000fcd40000, 0x0000000100000000)
+}
+2017-01-23T10:42:19.775-0500: 455.395: Total time for which application threads were stopped: 0.0243767 seconds, Stopping threads took: 0.0000440 seconds
+2017-01-23T10:42:35.775-0500: 471.395: Total time for which application threads were stopped: 0.0004380 seconds, Stopping threads took: 0.0000425 seconds
+2017-01-23T10:42:44.775-0500: 480.395: Total time for which application threads were stopped: 0.0003896 seconds, Stopping threads took: 0.0000451 seconds
+2017-01-23T10:43:04.775-0500: 500.394: Total time for which application threads were stopped: 0.0001342 seconds, Stopping threads took: 0.0000183 seconds
+{Heap before GC invocations=21 (full 0):
+ par new generation   total 109248K, used 102867K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  70% used [0x00000000e18b0000, 0x00000000e27c4f70, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 24955K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32015K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)
+2017-01-23T10:43:12.121-0500: 507.741: [GC2017-01-23T10:43:12.121-0500: 507.741: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    2606384 bytes,    2606384 total
+- age   2:     101888 bytes,    2708272 total
+- age   3:      13680 bytes,    2721952 total
+- age   4:     289920 bytes,    3011872 total
+- age   5:     254832 bytes,    3266704 total
+- age   6:     425368 bytes,    3692072 total
+- age   7:     502240 bytes,    4194312 total
+- age   8:    7850216 bytes,   12044528 total
+: 102867K->17901K(109248K), 0.0113253 secs] 127823K->43304K(502464K), 0.0114368 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=22 (full 0):
+ par new generation   total 109248K, used 17901K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  82% used [0x00000000e0360000, 0x00000000e14db5b0, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 25403K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32015K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)
+}
+2017-01-23T10:43:12.133-0500: 507.752: Total time for which application threads were stopped: 0.0118425 seconds, Stopping threads took: 0.0000323 seconds
+2017-01-23T10:44:27.159-0500: 582.778: Total time for which application threads were stopped: 0.0005260 seconds, Stopping threads took: 0.0000913 seconds
+2017-01-23T10:44:27.159-0500: 582.778: Total time for which application threads were stopped: 0.0000854 seconds, Stopping threads took: 0.0000348 seconds
+2017-01-23T10:44:29.549-0500: 585.169: Total time for which application threads were stopped: 0.0003475 seconds, Stopping threads took: 0.0000422 seconds
+2017-01-23T10:44:29.769-0500: 585.389: Total time for which application threads were stopped: 0.0001096 seconds, Stopping threads took: 0.0000260 seconds
+2017-01-23T10:44:29.771-0500: 585.390: Total time for which application threads were stopped: 0.0000770 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T10:44:46.059-0500: 601.678: Total time for which application threads were stopped: 0.0008350 seconds, Stopping threads took: 0.0004069 seconds
+2017-01-23T10:44:57.059-0500: 612.678: Total time for which application threads were stopped: 0.0002874 seconds, Stopping threads took: 0.0000293 seconds
+2017-01-23T10:46:05.005-0500: 680.621: Total time for which application threads were stopped: 0.0005656 seconds, Stopping threads took: 0.0000766 seconds
+2017-01-23T10:46:05.006-0500: 680.622: Total time for which application threads were stopped: 0.0001206 seconds, Stopping threads took: 0.0000528 seconds
+2017-01-23T10:46:06.667-0500: 682.283: Total time for which application threads were stopped: 0.0004384 seconds, Stopping threads took: 0.0000436 seconds
+{Heap before GC invocations=22 (full 0):
+ par new generation   total 109248K, used 105325K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  82% used [0x00000000e0360000, 0x00000000e14db5b0, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 25403K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32059K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)
+2017-01-23T10:46:06.679-0500: 682.295: [GC2017-01-23T10:46:06.679-0500: 682.295: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:     950912 bytes,     950912 total
+- age   2:      79320 bytes,    1030232 total
+- age   3:      63688 bytes,    1093920 total
+- age   4:      13200 bytes,    1107120 total
+- age   5:     289920 bytes,    1397040 total
+- age   6:     240592 bytes,    1637632 total
+- age   7:     425224 bytes,    2062856 total
+- age   8:     501968 bytes,    2564824 total
+: 105325K->7405K(109248K), 0.0402324 secs] 130728K->40822K(502464K), 0.0404256 secs] [Times: user=0.08 sys=0.03, real=0.04 secs] 
+Heap after GC invocations=23 (full 0):
+ par new generation   total 109248K, used 7405K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  33% used [0x00000000e18b0000, 0x00000000e1feb4a0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 33417K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32059K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)
+}
+2017-01-23T10:46:06.720-0500: 682.336: Total time for which application threads were stopped: 0.0407503 seconds, Stopping threads took: 0.0000374 seconds
+2017-01-23T10:46:14.131-0500: 689.746: Total time for which application threads were stopped: 0.0002082 seconds, Stopping threads took: 0.0000334 seconds
+2017-01-23T10:46:14.132-0500: 689.747: Total time for which application threads were stopped: 0.0000920 seconds, Stopping threads took: 0.0000414 seconds
+2017-01-23T10:46:17.316-0500: 692.931: Total time for which application threads were stopped: 0.0002654 seconds, Stopping threads took: 0.0000751 seconds
+2017-01-23T10:46:21.316-0500: 696.931: Total time for which application threads were stopped: 0.0003519 seconds, Stopping threads took: 0.0000502 seconds
+{Heap before GC invocations=23 (full 0):
+ par new generation   total 109248K, used 94829K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  33% used [0x00000000e18b0000, 0x00000000e1feb4a0, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 33417K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32074K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)
+2017-01-23T10:46:33.637-0500: 709.251: [GC2017-01-23T10:46:33.637-0500: 709.251: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    1171176 bytes,    1171176 total
+- age   2:     325400 bytes,    1496576 total
+- age   3:      78960 bytes,    1575536 total
+- age   4:      63688 bytes,    1639224 total
+- age   5:      13176 bytes,    1652400 total
+- age   6:     289896 bytes,    1942296 total
+- age   7:     240496 bytes,    2182792 total
+- age   8:     423832 bytes,    2606624 total
+: 94829K->3434K(109248K), 0.0115878 secs] 128246K->37346K(502464K), 0.0118099 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=24 (full 0):
+ par new generation   total 109248K, used 3434K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  15% used [0x00000000e0360000, 0x00000000e06ba8f8, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 33912K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32074K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)
+}
+2017-01-23T10:46:33.649-0500: 709.263: Total time for which application threads were stopped: 0.0124444 seconds, Stopping threads took: 0.0000407 seconds
+2017-01-23T10:46:42.650-0500: 718.263: Total time for which application threads were stopped: 0.0001569 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T10:47:35.360-0500: 770.966: Total time for which application threads were stopped: 0.0003119 seconds, Stopping threads took: 0.0000575 seconds
+2017-01-23T10:47:41.641-0500: 777.247: Total time for which application threads were stopped: 0.0003786 seconds, Stopping threads took: 0.0000466 seconds
+{Heap before GC invocations=24 (full 0):
+ par new generation   total 109248K, used 90858K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K, 100% used [0x00000000dae00000, 0x00000000e0360000, 0x00000000e0360000)
+  from space 21824K,  15% used [0x00000000e0360000, 0x00000000e06ba8f8, 0x00000000e18b0000)
+  to   space 21824K,   0% used [0x00000000e18b0000, 0x00000000e18b0000, 0x00000000e2e00000)
+ concurrent mark-sweep generation total 393216K, used 33912K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32086K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)
+2017-01-23T10:47:45.846-0500: 781.452: [GC2017-01-23T10:47:45.846-0500: 781.452: [ParNew
+Desired survivor size 20112992 bytes, new threshold 8 (max 8)
+- age   1:    5062520 bytes,    5062520 total
+- age   2:      51968 bytes,    5114488 total
+- age   3:     307944 bytes,    5422432 total
+- age   4:      78584 bytes,    5501016 total
+- age   5:      63688 bytes,    5564704 total
+- age   6:      13176 bytes,    5577880 total
+- age   7:     289896 bytes,    5867776 total
+- age   8:     240416 bytes,    6108192 total
+: 90858K->6455K(109248K), 0.0105985 secs] 124770K->40783K(502464K), 0.0108034 secs] [Times: user=0.06 sys=0.00, real=0.01 secs] 
+Heap after GC invocations=25 (full 0):
+ par new generation   total 109248K, used 6455K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,   0% used [0x00000000dae00000, 0x00000000dae00000, 0x00000000e0360000)
+  from space 21824K,  29% used [0x00000000e18b0000, 0x00000000e1efdc08, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 34328K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32086K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)
+}
+2017-01-23T10:47:45.857-0500: 781.463: Total time for which application threads were stopped: 0.0115207 seconds, Stopping threads took: 0.0001129 seconds
+2017-01-23T11:01:50.962-0500: 1626.569: Total time for which application threads were stopped: 0.0005989 seconds, Stopping threads took: 0.0000891 seconds
+2017-01-23T11:01:50.963-0500: 1626.570: Total time for which application threads were stopped: 0.0000865 seconds, Stopping threads took: 0.0000282 seconds
+2017-01-23T11:01:50.963-0500: 1626.571: Total time for which application threads were stopped: 0.0000671 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T11:01:50.964-0500: 1626.572: Total time for which application threads were stopped: 0.0000795 seconds, Stopping threads took: 0.0000308 seconds
+2017-01-23T11:01:50.965-0500: 1626.573: Total time for which application threads were stopped: 0.0003871 seconds, Stopping threads took: 0.0000301 seconds
+2017-01-23T11:01:50.968-0500: 1626.575: Total time for which application threads were stopped: 0.0000689 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:50.969-0500: 1626.577: Total time for which application threads were stopped: 0.0000671 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T11:01:50.970-0500: 1626.577: Total time for which application threads were stopped: 0.0000755 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.970-0500: 1626.577: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.970-0500: 1626.578: Total time for which application threads were stopped: 0.0000656 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.971-0500: 1626.578: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.971-0500: 1626.578: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.971-0500: 1626.578: Total time for which application threads were stopped: 0.0000667 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:50.971-0500: 1626.579: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.977-0500: 1626.584: Total time for which application threads were stopped: 0.0000682 seconds, Stopping threads took: 0.0000242 seconds
+2017-01-23T11:01:50.977-0500: 1626.584: Total time for which application threads were stopped: 0.0000663 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:50.977-0500: 1626.584: Total time for which application threads were stopped: 0.0000671 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T11:01:50.977-0500: 1626.585: Total time for which application threads were stopped: 0.0000663 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T11:01:50.980-0500: 1626.587: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.980-0500: 1626.587: Total time for which application threads were stopped: 0.0000663 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.981-0500: 1626.588: Total time for which application threads were stopped: 0.0000726 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.983-0500: 1626.591: Total time for which application threads were stopped: 0.0001473 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T11:01:50.984-0500: 1626.591: Total time for which application threads were stopped: 0.0000685 seconds, Stopping threads took: 0.0000257 seconds
+2017-01-23T11:01:50.984-0500: 1626.592: Total time for which application threads were stopped: 0.0000678 seconds, Stopping threads took: 0.0000246 seconds
+2017-01-23T11:01:50.985-0500: 1626.592: Total time for which application threads were stopped: 0.0000729 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T11:01:50.985-0500: 1626.592: Total time for which application threads were stopped: 0.0000517 seconds, Stopping threads took: 0.0000198 seconds
+2017-01-23T11:01:50.986-0500: 1626.593: Total time for which application threads were stopped: 0.0000597 seconds, Stopping threads took: 0.0000216 seconds
+2017-01-23T11:01:50.986-0500: 1626.593: Total time for which application threads were stopped: 0.0000678 seconds, Stopping threads took: 0.0000249 seconds
+2017-01-23T11:01:50.986-0500: 1626.594: Total time for which application threads were stopped: 0.0000667 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.987-0500: 1626.594: Total time for which application threads were stopped: 0.0000806 seconds, Stopping threads took: 0.0000275 seconds
+2017-01-23T11:01:50.988-0500: 1626.595: Total time for which application threads were stopped: 0.0000700 seconds, Stopping threads took: 0.0000264 seconds
+2017-01-23T11:01:50.988-0500: 1626.595: Total time for which application threads were stopped: 0.0000682 seconds, Stopping threads took: 0.0000249 seconds
+2017-01-23T11:01:50.988-0500: 1626.596: Total time for which application threads were stopped: 0.0000656 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:50.988-0500: 1626.596: Total time for which application threads were stopped: 0.0000660 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:51.007-0500: 1626.614: Total time for which application threads were stopped: 0.0000590 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T11:01:51.008-0500: 1626.615: Total time for which application threads were stopped: 0.0000290 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T11:01:51.008-0500: 1626.615: Total time for which application threads were stopped: 0.0000260 seconds, Stopping threads took: 0.0000095 seconds
+2017-01-23T11:01:51.008-0500: 1626.616: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.008-0500: 1626.616: Total time for which application threads were stopped: 0.0000253 seconds, Stopping threads took: 0.0000092 seconds
+2017-01-23T11:01:51.009-0500: 1626.616: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.009-0500: 1626.616: Total time for which application threads were stopped: 0.0000253 seconds, Stopping threads took: 0.0000092 seconds
+2017-01-23T11:01:51.009-0500: 1626.616: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.009-0500: 1626.616: Total time for which application threads were stopped: 0.0000253 seconds, Stopping threads took: 0.0000092 seconds
+2017-01-23T11:01:51.009-0500: 1626.616: Total time for which application threads were stopped: 0.0000257 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T11:01:51.009-0500: 1626.616: Total time for which application threads were stopped: 0.0000249 seconds, Stopping threads took: 0.0000092 seconds
+2017-01-23T11:01:51.009-0500: 1626.617: Total time for which application threads were stopped: 0.0000257 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T11:01:51.009-0500: 1626.617: Total time for which application threads were stopped: 0.0000249 seconds, Stopping threads took: 0.0000092 seconds
+2017-01-23T11:01:51.010-0500: 1626.617: Total time for which application threads were stopped: 0.0000447 seconds, Stopping threads took: 0.0000161 seconds
+2017-01-23T11:01:51.010-0500: 1626.617: Total time for which application threads were stopped: 0.0000359 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T11:01:51.010-0500: 1626.617: Total time for which application threads were stopped: 0.0000374 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.010-0500: 1626.617: Total time for which application threads were stopped: 0.0000359 seconds, Stopping threads took: 0.0000117 seconds
+2017-01-23T11:01:51.010-0500: 1626.617: Total time for which application threads were stopped: 0.0000378 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.010-0500: 1626.617: Total time for which application threads were stopped: 0.0000275 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.010-0500: 1626.618: Total time for which application threads were stopped: 0.0000374 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.010-0500: 1626.618: Total time for which application threads were stopped: 0.0000275 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T11:01:51.011-0500: 1626.618: Total time for which application threads were stopped: 0.0000389 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.011-0500: 1626.618: Total time for which application threads were stopped: 0.0000374 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.011-0500: 1626.618: Total time for which application threads were stopped: 0.0000378 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.011-0500: 1626.618: Total time for which application threads were stopped: 0.0000378 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.011-0500: 1626.618: Total time for which application threads were stopped: 0.0000378 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.011-0500: 1626.618: Total time for which application threads were stopped: 0.0000378 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.013-0500: 1626.620: Total time for which application threads were stopped: 0.0000293 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T11:01:51.013-0500: 1626.620: Total time for which application threads were stopped: 0.0000275 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T11:01:51.013-0500: 1626.620: Total time for which application threads were stopped: 0.0000249 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.013-0500: 1626.620: Total time for which application threads were stopped: 0.0000231 seconds, Stopping threads took: 0.0000088 seconds
+2017-01-23T11:01:51.013-0500: 1626.620: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T11:01:51.013-0500: 1626.620: Total time for which application threads were stopped: 0.0000268 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T11:01:51.014-0500: 1626.622: Total time for which application threads were stopped: 0.0000293 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T11:01:51.015-0500: 1626.622: Total time for which application threads were stopped: 0.0000297 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.015-0500: 1626.622: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.016-0500: 1626.623: Total time for which application threads were stopped: 0.0000334 seconds, Stopping threads took: 0.0000136 seconds
+2017-01-23T11:01:51.016-0500: 1626.623: Total time for which application threads were stopped: 0.0000282 seconds, Stopping threads took: 0.0000117 seconds
+2017-01-23T11:01:51.016-0500: 1626.623: Total time for which application threads were stopped: 0.0000268 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T11:01:51.016-0500: 1626.623: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000106 seconds
+2017-01-23T11:01:51.016-0500: 1626.623: Total time for which application threads were stopped: 0.0000282 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T11:01:51.017-0500: 1626.624: Total time for which application threads were stopped: 0.0000400 seconds, Stopping threads took: 0.0000242 seconds
+2017-01-23T11:01:51.017-0500: 1626.624: Total time for which application threads were stopped: 0.0000392 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.017-0500: 1626.625: Total time for which application threads were stopped: 0.0001730 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.018-0500: 1626.625: Total time for which application threads were stopped: 0.0000396 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:51.019-0500: 1626.627: Total time for which application threads were stopped: 0.0000396 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:51.021-0500: 1626.628: Total time for which application threads were stopped: 0.0000491 seconds, Stopping threads took: 0.0000121 seconds
+2017-01-23T11:01:51.022-0500: 1626.629: Total time for which application threads were stopped: 0.0000469 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.022-0500: 1626.629: Total time for which application threads were stopped: 0.0000440 seconds, Stopping threads took: 0.0000216 seconds
+2017-01-23T11:01:51.022-0500: 1626.630: Total time for which application threads were stopped: 0.0000455 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:51.022-0500: 1626.630: Total time for which application threads were stopped: 0.0000451 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T11:01:51.023-0500: 1626.630: Total time for which application threads were stopped: 0.0000451 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T11:01:51.023-0500: 1626.630: Total time for which application threads were stopped: 0.0000447 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T11:01:51.023-0500: 1626.630: Total time for which application threads were stopped: 0.0000451 seconds, Stopping threads took: 0.0000231 seconds
+2017-01-23T11:01:51.023-0500: 1626.630: Total time for which application threads were stopped: 0.0000455 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.023-0500: 1626.631: Total time for which application threads were stopped: 0.0000447 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T11:01:51.024-0500: 1626.631: Total time for which application threads were stopped: 0.0000323 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T11:01:51.024-0500: 1626.631: Total time for which application threads were stopped: 0.0000458 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.024-0500: 1626.631: Total time for which application threads were stopped: 0.0000458 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.025-0500: 1626.633: Total time for which application threads were stopped: 0.0000458 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.026-0500: 1626.633: Total time for which application threads were stopped: 0.0000451 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T11:01:51.026-0500: 1626.633: Total time for which application threads were stopped: 0.0000455 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.026-0500: 1626.633: Total time for which application threads were stopped: 0.0000447 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T11:01:51.026-0500: 1626.633: Total time for which application threads were stopped: 0.0000444 seconds, Stopping threads took: 0.0000220 seconds
+2017-01-23T11:01:51.026-0500: 1626.634: Total time for which application threads were stopped: 0.0000447 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T11:01:51.026-0500: 1626.634: Total time for which application threads were stopped: 0.0000455 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.027-0500: 1626.634: Total time for which application threads were stopped: 0.0000323 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T11:01:51.029-0500: 1626.636: Total time for which application threads were stopped: 0.0000502 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T11:01:51.029-0500: 1626.636: Total time for which application threads were stopped: 0.0000451 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T11:01:51.029-0500: 1626.636: Total time for which application threads were stopped: 0.0000444 seconds, Stopping threads took: 0.0000220 seconds
+2017-01-23T11:01:51.031-0500: 1626.638: Total time for which application threads were stopped: 0.0000400 seconds, Stopping threads took: 0.0000147 seconds
+2017-01-23T11:01:51.032-0500: 1626.640: Total time for which application threads were stopped: 0.0000418 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T11:01:51.037-0500: 1626.644: Total time for which application threads were stopped: 0.0000407 seconds, Stopping threads took: 0.0000154 seconds
+2017-01-23T11:01:51.037-0500: 1626.645: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.038-0500: 1626.645: Total time for which application threads were stopped: 0.0000381 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T11:01:51.038-0500: 1626.645: Total time for which application threads were stopped: 0.0000367 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.038-0500: 1626.645: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.038-0500: 1626.645: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.038-0500: 1626.645: Total time for which application threads were stopped: 0.0000414 seconds, Stopping threads took: 0.0000238 seconds
+2017-01-23T11:01:51.040-0500: 1626.647: Total time for which application threads were stopped: 0.0000392 seconds, Stopping threads took: 0.0000227 seconds
+2017-01-23T11:01:51.040-0500: 1626.647: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.040-0500: 1626.648: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.041-0500: 1626.648: Total time for which application threads were stopped: 0.0000396 seconds, Stopping threads took: 0.0000154 seconds
+2017-01-23T11:01:51.042-0500: 1626.650: Total time for which application threads were stopped: 0.0000487 seconds, Stopping threads took: 0.0000246 seconds
+2017-01-23T11:01:51.043-0500: 1626.650: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.043-0500: 1626.651: Total time for which application threads were stopped: 0.0000352 seconds, Stopping threads took: 0.0000110 seconds
+2017-01-23T11:01:51.044-0500: 1626.651: Total time for which application threads were stopped: 0.0000381 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T11:01:51.044-0500: 1626.651: Total time for which application threads were stopped: 0.0000425 seconds, Stopping threads took: 0.0000158 seconds
+2017-01-23T11:01:51.044-0500: 1626.651: Total time for which application threads were stopped: 0.0000286 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.044-0500: 1626.651: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000125 seconds
+2017-01-23T11:01:51.044-0500: 1626.651: Total time for which application threads were stopped: 0.0000411 seconds, Stopping threads took: 0.0000235 seconds
+2017-01-23T11:01:51.044-0500: 1626.651: Total time for which application threads were stopped: 0.0000392 seconds, Stopping threads took: 0.0000224 seconds
+2017-01-23T11:01:51.046-0500: 1626.653: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T11:01:51.046-0500: 1626.653: Total time for which application threads were stopped: 0.0000268 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.046-0500: 1626.653: Total time for which application threads were stopped: 0.0000257 seconds, Stopping threads took: 0.0000095 seconds
+2017-01-23T11:01:51.046-0500: 1626.653: Total time for which application threads were stopped: 0.0000257 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T11:01:51.047-0500: 1626.655: Total time for which application threads were stopped: 0.0001818 seconds, Stopping threads took: 0.0000154 seconds
+2017-01-23T11:01:51.048-0500: 1626.655: Total time for which application threads were stopped: 0.0000374 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.048-0500: 1626.655: Total time for which application threads were stopped: 0.0000370 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.049-0500: 1626.656: Total time for which application threads were stopped: 0.0000400 seconds, Stopping threads took: 0.0000150 seconds
+2017-01-23T11:01:51.050-0500: 1626.657: Total time for which application threads were stopped: 0.0000352 seconds, Stopping threads took: 0.0000132 seconds
+2017-01-23T11:01:51.050-0500: 1626.658: Total time for which application threads were stopped: 0.0000348 seconds, Stopping threads took: 0.0000128 seconds
+2017-01-23T11:01:51.052-0500: 1626.659: Total time for which application threads were stopped: 0.0000297 seconds, Stopping threads took: 0.0000121 seconds
+2017-01-23T11:01:51.052-0500: 1626.659: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.053-0500: 1626.661: Total time for which application threads were stopped: 0.0000264 seconds, Stopping threads took: 0.0000103 seconds
+2017-01-23T11:01:51.054-0500: 1626.662: Total time for which application threads were stopped: 0.0000378 seconds, Stopping threads took: 0.0000216 seconds
+2017-01-23T11:01:51.057-0500: 1626.664: Total time for which application threads were stopped: 0.0000755 seconds, Stopping threads took: 0.0000114 seconds
+2017-01-23T11:01:51.057-0500: 1626.664: Total time for which application threads were stopped: 0.0000429 seconds, Stopping threads took: 0.0000081 seconds
+2017-01-23T11:01:51.058-0500: 1626.665: Total time for which application threads were stopped: 0.0000238 seconds, Stopping threads took: 0.0000099 seconds
+2017-01-23T11:01:51.058-0500: 1626.665: Total time for which application threads were stopped: 0.0000484 seconds, Stopping threads took: 0.0000348 seconds
+2017-01-23T11:01:51.058-0500: 1626.665: Total time for which application threads were stopped: 0.0000209 seconds, Stopping threads took: 0.0000073 seconds
+2017-01-23T11:01:51.058-0500: 1626.665: Total time for which application threads were stopped: 0.0000341 seconds, Stopping threads took: 0.0000216 seconds
+2017-01-23T11:01:51.058-0500: 1626.665: Total time for which application threads were stopped: 0.0000579 seconds, Stopping threads took: 0.0000440 seconds
+Heap
+ par new generation   total 109248K, used 50788K [0x00000000dae00000, 0x00000000e2e00000, 0x00000000e2e00000)
+  eden space 87424K,  50% used [0x00000000dae00000, 0x00000000dd94b6b0, 0x00000000e0360000)
+  from space 21824K,  29% used [0x00000000e18b0000, 0x00000000e1efdc08, 0x00000000e2e00000)
+  to   space 21824K,   0% used [0x00000000e0360000, 0x00000000e0360000, 0x00000000e18b0000)
+ concurrent mark-sweep generation total 393216K, used 34328K [0x00000000e2e00000, 0x00000000fae00000, 0x00000000fae00000)
+ concurrent-mark-sweep perm gen total 32192K, used 32160K [0x00000000fae00000, 0x00000000fcd70000, 0x0000000100000000)

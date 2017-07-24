@@ -1,0 +1,14 @@
+#**
+ *  Display facets based on field values
+ *  e.g.: fields specified by &facet.field=
+ *#
+
+#if($response.facetFields)
+  
+  #foreach($field in $response.facetFields)
+    ## Hide facets without value
+    #if($field.values.size() > 0)
+     
+    #end  ## end if > 0
+  #end    ## end for each facet field
+#end      ## end if response has facet fields
