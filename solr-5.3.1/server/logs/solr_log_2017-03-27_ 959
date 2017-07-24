@@ -1,0 +1,782 @@
+2017-02-09 15:42:34.560 INFO  (main) [   ] o.e.j.u.log Logging initialized @1865ms
+2017-02-09 15:42:35.456 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2017-02-09 15:42:35.507 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2017-02-09 15:42:35.509 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/server/contexts/] at interval 0
+2017-02-09 15:42:36.361 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2017-02-09 15:42:36.402 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@158d9aab{/solr,file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/server/solr-webapp/webapp/,STARTING}{C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server/solr-webapp/webapp} has uncovered http methods for path: /
+2017-02-09 15:42:36.421 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=528688824@1f8326b8
+2017-02-09 15:42:36.584 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2017-02-09 15:42:36.585 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr
+2017-02-09 15:42:36.596 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\'
+2017-02-09 15:42:37.128 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\solr.xml
+2017-02-09 15:42:37.699 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr
+2017-02-09 15:42:37.925 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 2046560462
+2017-02-09 15:42:37.926 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\]
+2017-02-09 15:42:37.926 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\lib
+2017-02-09 15:42:37.926 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\lib).
+2017-02-09 15:42:37.986 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2017-02-09 15:42:38.109 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2017-02-09 15:42:38.111 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2017-02-09 15:42:38.112 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2017-02-09 15:42:38.113 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2017-02-09 15:42:38.114 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2017-02-09 15:42:38.194 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr
+2017-02-09 15:42:38.247 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=21CFR, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR, absoluteInstDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\, dataDir=data\}
+2017-02-09 15:42:38.248 INFO  (main) [   ] o.a.s.c.CoresLocator Found core 21CFR in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\
+2017-02-09 15:42:38.252 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=CFR, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR, absoluteInstDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\, dataDir=data\}
+2017-02-09 15:42:38.252 INFO  (main) [   ] o.a.s.c.CoresLocator Found core CFR in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\
+2017-02-09 15:42:38.311 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=jcg, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg, absoluteInstDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\, dataDir=data\}
+2017-02-09 15:42:38.311 INFO  (main) [   ] o.a.s.c.CoresLocator Found core jcg in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\
+2017-02-09 15:42:38.315 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=rashed, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed, absoluteInstDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\, dataDir=data\}
+2017-02-09 15:42:38.315 INFO  (main) [   ] o.a.s.c.CoresLocator Found core rashed in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\
+2017-02-09 15:42:38.319 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=test, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test, absoluteInstDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\, dataDir=data\}
+2017-02-09 15:42:38.319 INFO  (main) [   ] o.a.s.c.CoresLocator Found core test in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\
+2017-02-09 15:42:38.323 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=testcfr, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr, absoluteInstDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\, dataDir=data\}
+2017-02-09 15:42:38.323 INFO  (main) [   ] o.a.s.c.CoresLocator Found core testcfr in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\
+2017-02-09 15:42:38.323 INFO  (main) [   ] o.a.s.c.CoresLocator Found 6 core definitions
+2017-02-09 15:42:38.328 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\'
+2017-02-09 15:42:38.328 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\'
+2017-02-09 15:42:38.328 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\'
+2017-02-09 15:42:38.329 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server
+2017-02-09 15:42:38.329 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2017-02-09 15:42:38.345 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@158d9aab{/solr,file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server/solr-webapp/webapp}
+2017-02-09 15:42:38.510 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@b3a354c{HTTP/1.1}{0.0.0.0:8983}
+2017-02-09 15:42:38.510 INFO  (main) [   ] o.e.j.s.Server Started @5819ms
+2017-02-09 15:42:38.524 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2017-02-09 15:42:38.524 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2017-02-09 15:42:38.524 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2017-02-09 15:42:38.530 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-02-09 15:42:38.530 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-02-09 15:42:38.531 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-02-09 15:42:38.533 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2017-02-09 15:42:38.534 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2017-02-09 15:42:38.533 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2017-02-09 15:42:38.534 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2017-02-09 15:42:38.534 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2017-02-09 15:42:38.534 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2017-02-09 15:42:38.534 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2017-02-09 15:42:38.534 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2017-02-09 15:42:38.534 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2017-02-09 15:42:38.534 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2017-02-09 15:42:38.535 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2017-02-09 15:42:38.536 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2017-02-09 15:42:38.537 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2017-02-09 15:42:38.537 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2017-02-09 15:42:38.537 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.537 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.537 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.547 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2017-02-09 15:42:38.548 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2017-02-09 15:42:38.547 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2017-02-09 15:42:38.548 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2017-02-09 15:42:38.548 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2017-02-09 15:42:38.548 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2017-02-09 15:42:38.548 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2017-02-09 15:42:38.548 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2017-02-09 15:42:38.548 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.548 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-3.11.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-3.11.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-3.11.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2017-02-09 15:42:38.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2017-02-09 15:42:38.550 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2017-02-09 15:42:38.551 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+2017-02-09 15:42:38.552 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+2017-02-09 15:42:38.554 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-cell-5.3.1.jar' to classloader
+2017-02-09 15:42:38.554 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-cell-5.3.1.jar' to classloader
+2017-02-09 15:42:38.554 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-cell-5.3.1.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2017-02-09 15:42:38.555 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2017-02-09 15:42:38.556 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2017-02-09 15:42:38.557 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-clustering-5.3.1.jar' to classloader
+2017-02-09 15:42:38.557 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-clustering-5.3.1.jar' to classloader
+2017-02-09 15:42:38.557 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-clustering-5.3.1.jar' to classloader
+2017-02-09 15:42:38.558 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2017-02-09 15:42:38.558 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2017-02-09 15:42:38.558 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2017-02-09 15:42:38.558 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2017-02-09 15:42:38.558 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2017-02-09 15:42:38.558 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2017-02-09 15:42:38.559 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-langid-5.3.1.jar' to classloader
+2017-02-09 15:42:38.559 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-langid-5.3.1.jar' to classloader
+2017-02-09 15:42:38.559 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-langid-5.3.1.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2017-02-09 15:42:38.560 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2017-02-09 15:42:38.561 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2017-02-09 15:42:38.561 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2017-02-09 15:42:38.561 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2017-02-09 15:42:38.561 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-velocity-5.3.1.jar' to classloader
+2017-02-09 15:42:38.562 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-velocity-5.3.1.jar' to classloader
+2017-02-09 15:42:38.562 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-velocity-5.3.1.jar' to classloader
+2017-02-09 15:42:40.222 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-02-09 15:42:40.226 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-02-09 15:42:40.227 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2017-02-09 15:42:40.229 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2017-02-09 15:42:40.229 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-02-09 15:42:40.232 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2017-02-09 15:42:40.410 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2017-02-09 15:42:40.410 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2017-02-09 15:42:40.410 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2017-02-09 15:42:40.461 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf\schema.xml
+2017-02-09 15:42:40.461 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf\schema.xml
+2017-02-09 15:42:40.467 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf\schema.xml
+2017-02-09 15:42:40.523 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema [jcg] Schema name=example
+2017-02-09 15:42:40.536 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [21CFR] Schema name=example
+2017-02-09 15:42:40.536 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [CFR] Schema name=example
+2017-02-09 15:42:41.391 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-02-09 15:42:41.391 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-02-09 15:42:41.391 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-02-09 15:42:41.430 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+2017-02-09 15:42:41.430 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+2017-02-09 15:42:41.430 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+2017-02-09 15:42:41.431 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+2017-02-09 15:42:41.432 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+2017-02-09 15:42:41.432 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+2017-02-09 15:42:41.767 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:41.776 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:41.780 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:41.791 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:41.796 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:41.808 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:42.274 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf'
+2017-02-09 15:42:42.275 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore '21CFR' using configuration from instancedir C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\
+2017-02-09 15:42:42.275 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-02-09 15:42:42.296 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf'
+2017-02-09 15:42:42.296 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.CoreContainer Creating SolrCore 'jcg' using configuration from instancedir C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\
+2017-02-09 15:42:42.296 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-02-09 15:42:42.348 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore [[21CFR] ] Opening new SolrCore at [C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\], dataDir=[null]
+2017-02-09 15:42:42.348 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore [[jcg] ] Opening new SolrCore at [C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\], dataDir=[null]
+2017-02-09 15:42:42.376 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-02-09 15:42:42.376 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-02-09 15:42:42.399 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore [[21CFR] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-02-09 15:42:42.399 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore [[jcg] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-02-09 15:42:42.400 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore [[21CFR] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2017-02-09 15:42:42.400 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore [[jcg] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2017-02-09 15:42:42.441 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\data
+2017-02-09 15:42:42.441 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\data
+2017-02-09 15:42:42.448 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\data\index/
+2017-02-09 15:42:42.448 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\data\index/
+2017-02-09 15:42:42.450 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\data\index
+2017-02-09 15:42:42.451 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\data\index
+2017-02-09 15:42:42.484 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf'
+2017-02-09 15:42:42.484 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'CFR' using configuration from instancedir C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\
+2017-02-09 15:42:42.484 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-02-09 15:42:42.485 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore [[CFR] ] Opening new SolrCore at [C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\], dataDir=[null]
+2017-02-09 15:42:42.486 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-02-09 15:42:42.486 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore [[CFR] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-02-09 15:42:42.486 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore [[CFR] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2017-02-09 15:42:42.487 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\data
+2017-02-09 15:42:42.487 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\data\index/
+2017-02-09 15:42:42.489 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\data\index
+2017-02-09 15:42:42.495 INFO  (OldIndexDirectoryCleanupThreadForCore-21CFR) [   x:21CFR] o.a.s.c.SolrCore Looking for old index directories to cleanup for core 21CFR in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\data\
+2017-02-09 15:42:42.495 INFO  (OldIndexDirectoryCleanupThreadForCore-jcg) [   x:jcg] o.a.s.c.SolrCore Looking for old index directories to cleanup for core jcg in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\data\
+2017-02-09 15:42:42.498 INFO  (OldIndexDirectoryCleanupThreadForCore-CFR) [   x:CFR] o.a.s.c.SolrCore Looking for old index directories to cleanup for core CFR in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\data\
+2017-02-09 15:42:42.502 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2017-02-09 15:42:42.502 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2017-02-09 15:42:42.504 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2017-02-09 15:42:42.525 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-02-09 15:42:42.525 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-02-09 15:42:42.525 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-02-09 15:42:42.744 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-02-09 15:42:42.751 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-02-09 15:42:42.752 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-02-09 15:42:42.837 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.837 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.838 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.850 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.850 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.850 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.851 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.852 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.852 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.853 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.853 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.853 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:42.881 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2017-02-09 15:42:42.882 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-02-09 15:42:42.882 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-02-09 15:42:42.882 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2017-02-09 15:42:42.882 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-02-09 15:42:42.882 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2017-02-09 15:42:42.882 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-02-09 15:42:42.882 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-02-09 15:42:42.882 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-02-09 15:42:42.885 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2017-02-09 15:42:42.885 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2017-02-09 15:42:42.885 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/stream,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/export,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2017-02-09 15:42:42.886 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-02-09 15:42:42.887 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2017-02-09 15:42:42.887 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2017-02-09 15:42:42.887 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-02-09 15:42:42.887 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/stream,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/export,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2017-02-09 15:42:42.887 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2017-02-09 15:42:42.887 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/stream,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/export,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2017-02-09 15:42:42.890 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-02-09 15:42:42.890 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-02-09 15:42:42.891 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-02-09 15:42:42.910 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-02-09 15:42:42.910 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-02-09 15:42:42.910 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-02-09 15:42:42.910 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-02-09 15:42:42.910 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-02-09 15:42:42.911 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-02-09 15:42:43.052 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2017-02-09 15:42:43.052 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2017-02-09 15:42:43.079 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2017-02-09 15:42:43.079 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2017-02-09 15:42:43.148 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2017-02-09 15:42:43.148 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2017-02-09 15:42:43.292 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7cb748dc; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_p,generation=25}
+2017-02-09 15:42:43.293 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.SolrCore newest commit generation = 25
+2017-02-09 15:42:43.319 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7cb748dc; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+2017-02-09 15:42:43.319 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.SolrCore newest commit generation = 11
+2017-02-09 15:42:43.335 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7cb748dc; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_w,generation=32}
+2017-02-09 15:42:43.336 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.SolrCore newest commit generation = 32
+2017-02-09 15:42:43.583 INFO  (qtp675137585-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=263 
+2017-02-09 15:42:44.057 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.s.SolrIndexSearcher Opening Searcher@11ef62e8[jcg] main
+2017-02-09 15:42:44.100 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.s.SolrIndexSearcher Opening Searcher@5a78d139[CFR] main
+2017-02-09 15:42:44.166 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf
+2017-02-09 15:42:44.166 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf
+2017-02-09 15:42:44.167 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf}
+2017-02-09 15:42:44.167 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf}
+2017-02-09 15:42:44.171 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf
+2017-02-09 15:42:44.171 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf
+2017-02-09 15:42:44.186 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf
+2017-02-09 15:42:44.186 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf
+2017-02-09 15:42:44.186 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-02-09 15:42:44.186 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-02-09 15:42:44.187 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.RestManager Initializing 2 registered ManagedResources
+2017-02-09 15:42:44.187 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.RestManager Initializing 2 registered ManagedResources
+2017-02-09 15:42:44.188 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_stopwords_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf
+2017-02-09 15:42:44.188 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_stopwords_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf
+2017-02-09 15:42:44.204 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf
+2017-02-09 15:42:44.204 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf
+2017-02-09 15:42:44.204 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+2017-02-09 15:42:44.205 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+2017-02-09 15:42:44.205 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResource Loaded 35 words for /schema/analysis/stopwords/english
+2017-02-09 15:42:44.205 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResource Loaded 35 words for /schema/analysis/stopwords/english
+2017-02-09 15:42:44.206 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/stopwords/english
+2017-02-09 15:42:44.206 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/stopwords/english
+2017-02-09 15:42:44.207 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_synonyms_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf
+2017-02-09 15:42:44.207 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_synonyms_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf
+2017-02-09 15:42:44.222 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf
+2017-02-09 15:42:44.222 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf
+2017-02-09 15:42:44.222 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+2017-02-09 15:42:44.222 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+2017-02-09 15:42:44.225 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResource Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+2017-02-09 15:42:44.225 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResource Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+2017-02-09 15:42:44.228 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/synonyms/english
+2017-02-09 15:42:44.229 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/synonyms/english
+2017-02-09 15:42:44.255 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-02-09 15:42:44.255 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-02-09 15:42:44.386 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-02-09 15:42:44.386 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-02-09 15:42:44.405 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2017-02-09 15:42:44.407 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-02-09 15:42:44.412 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-02-09 15:42:44.415 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2017-02-09 15:42:44.415 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-02-09 15:42:44.416 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-02-09 15:42:44.450 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-02-09 15:42:44.450 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-02-09 15:42:44.452 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\jcg\conf\elevate.xml
+2017-02-09 15:42:44.452 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\CFR\conf\elevate.xml
+2017-02-09 15:42:44.495 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-02-09 15:42:44.524 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@11ef62e8[jcg] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(5.3.1):C21/11:delGen=3) Uninverting(_g(5.3.1):C1) Uninverting(_k(5.3.1):C10/9:delGen=1) Uninverting(_y(5.3.1):C1) Uninverting(_z(5.3.1):C9)))}
+2017-02-09 15:42:44.525 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-02-09 15:42:44.526 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-02-09 15:42:44.577 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-02-09 15:42:44.577 INFO  (searcherExecutor-9-thread-1-processing-x:CFR) [   x:CFR] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@5a78d139[CFR] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_17(5.3.1):C7323/501:delGen=1) Uninverting(_16(5.3.1):C121) Uninverting(_18(5.3.1):C380)))}
+2017-02-09 15:42:44.577 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-02-09 15:42:44.578 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-02-09 15:42:44.585 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.u.VersionInfo Found MAX value 1528181004451184640 from Terms for _version_ in index
+2017-02-09 15:42:44.589 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.u.UpdateLog Took 64 ms to seed version buckets with highest version 1528181004451184640
+2017-02-09 15:42:44.591 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.u.VersionInfo Found MAX value 1528385596920168448 from Terms for _version_ in index
+2017-02-09 15:42:44.594 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.u.UpdateLog Took 17 ms to seed version buckets with highest version 1528385596920168448
+2017-02-09 15:42:44.639 INFO  (coreLoadExecutor-6-thread-3) [   x:jcg] o.a.s.c.CoreContainer registering core: jcg
+2017-02-09 15:42:44.639 INFO  (coreLoadExecutor-6-thread-2) [   x:CFR] o.a.s.c.CoreContainer registering core: CFR
+2017-02-09 15:42:44.640 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\'
+2017-02-09 15:42:44.640 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\'
+2017-02-09 15:42:44.776 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=7 status=0 QTime=229 
+2017-02-09 15:42:44.778 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2017-02-09 15:42:44.802 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2017-02-09 15:42:44.806 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.SolrCore QuerySenderListener done.
+2017-02-09 15:42:44.806 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-02-09 15:42:44.806 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2017-02-09 15:42:44.806 INFO  (searcherExecutor-8-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.SolrCore [jcg] Registered new searcher Searcher@11ef62e8[jcg] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(5.3.1):C21/11:delGen=3) Uninverting(_g(5.3.1):C1) Uninverting(_k(5.3.1):C10/9:delGen=1) Uninverting(_y(5.3.1):C1) Uninverting(_z(5.3.1):C9)))}
+2017-02-09 15:42:44.812 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-02-09 15:42:44.814 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-02-09 15:42:44.815 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2017-02-09 15:42:44.836 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2017-02-09 15:42:44.837 INFO  (searcherExecutor-9-thread-1-processing-x:CFR) [   x:CFR] o.a.s.c.S.Request [CFR] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=6478 status=0 QTime=259 
+2017-02-09 15:42:44.855 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.s.SolrIndexSearcher Opening Searcher@42978a93[21CFR] main
+2017-02-09 15:42:44.856 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf
+2017-02-09 15:42:44.856 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf}
+2017-02-09 15:42:44.856 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf
+2017-02-09 15:42:44.860 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2017-02-09 15:42:44.863 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf
+2017-02-09 15:42:44.863 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-02-09 15:42:44.863 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.RestManager Initializing 2 registered ManagedResources
+2017-02-09 15:42:44.863 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_stopwords_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf
+2017-02-09 15:42:44.866 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2017-02-09 15:42:44.869 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf
+2017-02-09 15:42:44.869 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+2017-02-09 15:42:44.869 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResource Loaded 35 words for /schema/analysis/stopwords/english
+2017-02-09 15:42:44.869 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/stopwords/english
+2017-02-09 15:42:44.869 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_synonyms_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf
+2017-02-09 15:42:44.874 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf
+2017-02-09 15:42:44.874 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+2017-02-09 15:42:44.874 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResource Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+2017-02-09 15:42:44.874 INFO  (searcherExecutor-9-thread-1-processing-x:CFR) [   x:CFR] o.a.s.c.SolrCore QuerySenderListener done.
+2017-02-09 15:42:44.874 INFO  (searcherExecutor-9-thread-1-processing-x:CFR) [   x:CFR] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-02-09 15:42:44.874 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/synonyms/english
+2017-02-09 15:42:44.874 INFO  (searcherExecutor-9-thread-1-processing-x:CFR) [   x:CFR] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2017-02-09 15:42:44.874 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-02-09 15:42:44.875 INFO  (searcherExecutor-9-thread-1-processing-x:CFR) [   x:CFR] o.a.s.c.SolrCore [CFR] Registered new searcher Searcher@5a78d139[CFR] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_17(5.3.1):C7323/501:delGen=1) Uninverting(_16(5.3.1):C121) Uninverting(_18(5.3.1):C380)))}
+2017-02-09 15:42:44.875 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-02-09 15:42:44.875 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2017-02-09 15:42:44.875 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-02-09 15:42:44.875 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-02-09 15:42:44.875 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-02-09 15:42:44.875 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\21CFR\conf\elevate.xml
+2017-02-09 15:42:44.887 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\conf\schema.xml
+2017-02-09 15:42:44.895 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\conf\schema.xml
+2017-02-09 15:42:44.900 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [test] Schema name=example
+2017-02-09 15:42:44.902 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-02-09 15:42:44.903 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-02-09 15:42:44.904 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-02-09 15:42:44.913 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.u.VersionInfo Found MAX value 1556801441209778176 from Terms for _version_ in index
+2017-02-09 15:42:44.914 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.u.UpdateLog Took 11 ms to seed version buckets with highest version 1556801441209778176
+2017-02-09 15:42:44.914 INFO  (coreLoadExecutor-6-thread-1) [   x:21CFR] o.a.s.c.CoreContainer registering core: 21CFR
+2017-02-09 15:42:44.914 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema [rashed] Schema name=example
+2017-02-09 15:42:44.915 INFO  (searcherExecutor-7-thread-1-processing-x:21CFR) [   x:21CFR] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@42978a93[21CFR] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(5.3.1):C4852) Uninverting(_a(5.3.1):C873) Uninverting(_c(5.3.1):C49) Uninverting(_d(5.3.1):C992) Uninverting(_e(5.3.1):C67) Uninverting(_f(5.3.1):C472) Uninverting(_h(5.3.1):C1)))}
+2017-02-09 15:42:44.916 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\'
+2017-02-09 15:42:44.977 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2017-02-09 15:42:44.978 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2017-02-09 15:42:44.979 INFO  (searcherExecutor-7-thread-1-processing-x:21CFR) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=6472 status=0 QTime=63 
+2017-02-09 15:42:44.980 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2017-02-09 15:42:44.980 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2017-02-09 15:42:44.980 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2017-02-09 15:42:44.980 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2017-02-09 15:42:44.980 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2017-02-09 15:42:44.981 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2017-02-09 15:42:44.981 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2017-02-09 15:42:44.981 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2017-02-09 15:42:44.981 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2017-02-09 15:42:44.981 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2017-02-09 15:42:44.981 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2017-02-09 15:42:44.981 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2017-02-09 15:42:44.982 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2017-02-09 15:42:44.982 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2017-02-09 15:42:44.982 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2017-02-09 15:42:44.982 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2017-02-09 15:42:44.982 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2017-02-09 15:42:44.982 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-3.11.jar' to classloader
+2017-02-09 15:42:44.982 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2017-02-09 15:42:44.982 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2017-02-09 15:42:44.983 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2017-02-09 15:42:44.983 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+2017-02-09 15:42:44.983 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2017-02-09 15:42:44.983 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2017-02-09 15:42:44.983 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2017-02-09 15:42:44.983 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2017-02-09 15:42:44.983 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2017-02-09 15:42:44.984 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2017-02-09 15:42:44.984 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2017-02-09 15:42:44.984 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2017-02-09 15:42:44.984 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2017-02-09 15:42:44.984 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2017-02-09 15:42:44.984 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+2017-02-09 15:42:44.985 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-cell-5.3.1.jar' to classloader
+2017-02-09 15:42:44.986 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2017-02-09 15:42:44.986 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2017-02-09 15:42:44.986 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2017-02-09 15:42:44.986 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2017-02-09 15:42:44.987 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2017-02-09 15:42:44.987 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2017-02-09 15:42:44.987 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2017-02-09 15:42:44.987 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2017-02-09 15:42:44.988 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-clustering-5.3.1.jar' to classloader
+2017-02-09 15:42:44.989 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2017-02-09 15:42:44.989 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2017-02-09 15:42:44.989 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-langid-5.3.1.jar' to classloader
+2017-02-09 15:42:44.990 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2017-02-09 15:42:44.990 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2017-02-09 15:42:44.991 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2017-02-09 15:42:44.991 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2017-02-09 15:42:44.991 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-02-09 15:42:44.992 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/MdRashedul.Hasan/Desktop/solr/solr-5.3.1/dist/solr-velocity-5.3.1.jar' to classloader
+2017-02-09 15:42:45.048 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-02-09 15:42:45.055 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2017-02-09 15:42:45.056 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2017-02-09 15:42:45.059 INFO  (searcherExecutor-7-thread-1-processing-x:21CFR) [   x:21CFR] o.a.s.c.SolrCore QuerySenderListener done.
+2017-02-09 15:42:45.059 INFO  (searcherExecutor-7-thread-1-processing-x:21CFR) [   x:21CFR] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-02-09 15:42:45.059 INFO  (searcherExecutor-7-thread-1-processing-x:21CFR) [   x:21CFR] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2017-02-09 15:42:45.059 INFO  (searcherExecutor-7-thread-1-processing-x:21CFR) [   x:21CFR] o.a.s.c.SolrCore [21CFR] Registered new searcher Searcher@42978a93[21CFR] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_b(5.3.1):C4852) Uninverting(_a(5.3.1):C873) Uninverting(_c(5.3.1):C49) Uninverting(_d(5.3.1):C992) Uninverting(_e(5.3.1):C67) Uninverting(_f(5.3.1):C472) Uninverting(_h(5.3.1):C1)))}
+2017-02-09 15:42:45.086 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2017-02-09 15:42:45.121 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf\schema.xml
+2017-02-09 15:42:45.148 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [testcfr] Schema name=example
+2017-02-09 15:42:45.149 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:45.160 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:45.166 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:45.169 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\conf'
+2017-02-09 15:42:45.169 INFO  (coreLoadExecutor-6-thread-3) [   ] o.a.s.c.CoreContainer Creating SolrCore 'rashed' using configuration from instancedir C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\
+2017-02-09 15:42:45.169 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-02-09 15:42:45.170 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore [[rashed] ] Opening new SolrCore at [C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\], dataDir=[null]
+2017-02-09 15:42:45.170 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-02-09 15:42:45.171 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\data
+2017-02-09 15:42:45.171 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\data\index/
+2017-02-09 15:42:45.173 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\data\index
+2017-02-09 15:42:45.175 INFO  (OldIndexDirectoryCleanupThreadForCore-rashed) [   x:rashed] o.a.s.c.SolrCore Looking for old index directories to cleanup for core rashed in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\data\
+2017-02-09 15:42:45.175 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:45.176 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-02-09 15:42:45.179 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.180 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.180 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\conf'
+2017-02-09 15:42:45.180 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'test' using configuration from instancedir C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\
+2017-02-09 15:42:45.180 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-02-09 15:42:45.180 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.181 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.181 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore [[test] ] Opening new SolrCore at [C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\], dataDir=[null]
+2017-02-09 15:42:45.181 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-02-09 15:42:45.182 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\data
+2017-02-09 15:42:45.183 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\data\index/
+2017-02-09 15:42:45.183 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-02-09 15:42:45.183 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-02-09 15:42:45.183 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-02-09 15:42:45.183 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/get,/update/json,/export,/admin/properties,/config,/debug/dump
+2017-02-09 15:42:45.184 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-02-09 15:42:45.184 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-02-09 15:42:45.184 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-02-09 15:42:45.185 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\data\index
+2017-02-09 15:42:45.185 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2017-02-09 15:42:45.185 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2017-02-09 15:42:45.187 INFO  (OldIndexDirectoryCleanupThreadForCore-test) [   x:test] o.a.s.c.SolrCore Looking for old index directories to cleanup for core test in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\data\
+2017-02-09 15:42:45.189 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-02-09 15:42:45.191 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7cb748dc; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2017-02-09 15:42:45.191 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.SolrCore newest commit generation = 1
+2017-02-09 15:42:45.192 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.s.SolrIndexSearcher Opening Searcher@43373e51[rashed] main
+2017-02-09 15:42:45.192 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.192 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\conf
+2017-02-09 15:42:45.192 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\conf}
+2017-02-09 15:42:45.192 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\conf
+2017-02-09 15:42:45.193 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.193 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.194 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.197 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-02-09 15:42:45.197 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-02-09 15:42:45.197 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-02-09 15:42:45.197 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/admin/threads,/schema,/query,/replication,/analysis/field,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/get,/update/json,/export,/admin/properties,/config,/debug/dump
+2017-02-09 15:42:45.198 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\rashed\conf
+2017-02-09 15:42:45.198 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-02-09 15:42:45.198 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2017-02-09 15:42:45.199 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-02-09 15:42:45.199 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-02-09 15:42:45.199 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-02-09 15:42:45.199 INFO  (searcherExecutor-22-thread-1-processing-x:rashed) [   x:rashed] o.a.s.c.SolrCore [rashed] Registered new searcher Searcher@43373e51[rashed] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-02-09 15:42:45.199 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-02-09 15:42:45.199 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2017-02-09 15:42:45.199 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1558870716788506624
+2017-02-09 15:42:45.199 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-02-09 15:42:45.199 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-02-09 15:42:45.200 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.u.UpdateLog Took 1 ms to seed version buckets with highest version 1558870716788506624
+2017-02-09 15:42:45.213 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2017-02-09 15:42:45.213 INFO  (coreLoadExecutor-6-thread-3) [   x:rashed] o.a.s.c.CoreContainer registering core: rashed
+2017-02-09 15:42:45.213 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2017-02-09 15:42:45.219 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7cb748dc; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2017-02-09 15:42:45.219 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.SolrCore newest commit generation = 1
+2017-02-09 15:42:45.219 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.s.SolrIndexSearcher Opening Searcher@1722aaf4[test] main
+2017-02-09 15:42:45.219 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\conf
+2017-02-09 15:42:45.219 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\conf}
+2017-02-09 15:42:45.219 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\conf
+2017-02-09 15:42:45.223 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\test\conf
+2017-02-09 15:42:45.223 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-02-09 15:42:45.223 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2017-02-09 15:42:45.224 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-02-09 15:42:45.224 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-02-09 15:42:45.224 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-02-09 15:42:45.224 INFO  (searcherExecutor-23-thread-1-processing-x:test) [   x:test] o.a.s.c.SolrCore [test] Registered new searcher Searcher@1722aaf4[test] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2017-02-09 15:42:45.224 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2017-02-09 15:42:45.224 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1558870716814721024
+2017-02-09 15:42:45.225 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.u.UpdateLog Took 1 ms to seed version buckets with highest version 1558870716814721024
+2017-02-09 15:42:45.225 INFO  (coreLoadExecutor-6-thread-2) [   x:test] o.a.s.c.CoreContainer registering core: test
+2017-02-09 15:42:45.366 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2017-02-09 15:42:45.367 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+2017-02-09 15:42:45.367 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+2017-02-09 15:42:45.420 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:45.446 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2017-02-09 15:42:45.799 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={} hits=7306 status=0 QTime=290 
+2017-02-09 15:42:45.799 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.PluginBag Going to create a new queryResponseWriter with {type = queryResponseWriter,name = velocity,class = solr.VelocityResponseWriter,args = {template.base.dir=}} 
+2017-02-09 15:42:45.900 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf'
+2017-02-09 15:42:45.900 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'testcfr' using configuration from instancedir C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\
+2017-02-09 15:42:45.900 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2017-02-09 15:42:45.901 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore [[testcfr] ] Opening new SolrCore at [C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\], dataDir=[null]
+2017-02-09 15:42:45.901 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2017-02-09 15:42:45.901 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore [[testcfr] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2017-02-09 15:42:45.901 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore [[testcfr] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2017-02-09 15:42:45.902 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\data
+2017-02-09 15:42:45.902 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\data\index/
+2017-02-09 15:42:45.903 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\data\index
+2017-02-09 15:42:45.919 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2017-02-09 15:42:45.919 INFO  (OldIndexDirectoryCleanupThreadForCore-testcfr) [   x:testcfr] o.a.s.c.SolrCore Looking for old index directories to cleanup for core testcfr in C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\data\
+2017-02-09 15:42:45.919 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2017-02-09 15:42:45.921 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2017-02-09 15:42:45.922 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.923 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.923 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.924 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2017-02-09 15:42:45.926 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.RequestHandlers Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/stream,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/update/extract,/export,/admin/properties,/tvrh,/spell,/config,/debug/dump,/suggest
+2017-02-09 15:42:45.928 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2017-02-09 15:42:45.928 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2017-02-09 15:42:45.928 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2017-02-09 15:42:45.970 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2017-02-09 15:42:45.970 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2017-02-09 15:42:45.995 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@7cb748dc; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_h,generation=17}
+2017-02-09 15:42:45.995 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.SolrCore newest commit generation = 17
+2017-02-09 15:42:46.322 ERROR (qtp675137585-21) [   x:21CFR] o.a.s.r.VelocityResponseWriter Left side ($collations.size()) of '>' operation has null value at did_you_mean.vm[line 6, column 25]
+2017-02-09 15:42:46.450 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.s.SolrIndexSearcher Opening Searcher@2cbe7925[testcfr] main
+2017-02-09 15:42:46.452 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf
+2017-02-09 15:42:46.452 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf}
+2017-02-09 15:42:46.452 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf
+2017-02-09 15:42:46.459 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf
+2017-02-09 15:42:46.459 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2017-02-09 15:42:46.459 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.RestManager Initializing 2 registered ManagedResources
+2017-02-09 15:42:46.459 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_stopwords_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf
+2017-02-09 15:42:46.467 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf
+2017-02-09 15:42:46.467 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+2017-02-09 15:42:46.467 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResource Loaded 35 words for /schema/analysis/stopwords/english
+2017-02-09 15:42:46.467 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/stopwords/english
+2017-02-09 15:42:46.467 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_synonyms_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf
+2017-02-09 15:42:46.475 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf
+2017-02-09 15:42:46.475 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+2017-02-09 15:42:46.475 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResource Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+2017-02-09 15:42:46.476 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/synonyms/english
+2017-02-09 15:42:46.476 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2017-02-09 15:42:46.476 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2017-02-09 15:42:46.476 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2017-02-09 15:42:46.477 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2017-02-09 15:42:46.477 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-02-09 15:42:46.477 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2017-02-09 15:42:46.478 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\MdRashedul.Hasan\Desktop\solr\solr-5.3.1\server\solr\testcfr\conf\elevate.xml
+2017-02-09 15:42:46.527 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2017-02-09 15:42:46.527 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2017-02-09 15:42:46.527 INFO  (searcherExecutor-33-thread-1-processing-x:testcfr) [   x:testcfr] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@2cbe7925[testcfr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_v(5.3.1):C6493) Uninverting(_u(5.3.1):C356) Uninverting(_w(5.3.1):C456)))}
+2017-02-09 15:42:46.529 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2017-02-09 15:42:46.536 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.u.VersionInfo Found MAX value 1528828234797416448 from Terms for _version_ in index
+2017-02-09 15:42:46.537 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.u.UpdateLog Took 10 ms to seed version buckets with highest version 1528828234797416448
+2017-02-09 15:42:46.537 INFO  (coreLoadExecutor-6-thread-1) [   x:testcfr] o.a.s.c.CoreContainer registering core: testcfr
+2017-02-09 15:42:46.571 INFO  (searcherExecutor-33-thread-1-processing-x:testcfr) [   x:testcfr] o.a.s.c.S.Request [testcfr] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=6472 status=0 QTime=43 
+2017-02-09 15:42:46.634 INFO  (searcherExecutor-33-thread-1-processing-x:testcfr) [   x:testcfr] o.a.s.c.SolrCore QuerySenderListener done.
+2017-02-09 15:42:46.634 INFO  (searcherExecutor-33-thread-1-processing-x:testcfr) [   x:testcfr] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2017-02-09 15:42:46.634 INFO  (searcherExecutor-33-thread-1-processing-x:testcfr) [   x:testcfr] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2017-02-09 15:42:46.634 INFO  (searcherExecutor-33-thread-1-processing-x:testcfr) [   x:testcfr] o.a.s.c.SolrCore [testcfr] Registered new searcher Searcher@2cbe7925[testcfr] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_v(5.3.1):C6493) Uninverting(_u(5.3.1):C356) Uninverting(_w(5.3.1):C456)))}
+2017-02-09 15:42:46.643 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+2017-02-09 15:42:46.643 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:42:46.644 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:44:35.666 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.PluginBag Going to create a new requestHandler with {type = requestHandler,name = /terms,class = solr.SearchHandler,args = {defaults={terms=true,distrib=false},components=[terms]}} 
+2017-02-09 15:44:35.669 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655075641&limit=10&terms.fl=name&q=el&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix=el} status=0 QTime=2 
+2017-02-09 15:44:39.552 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655079544&limit=10&terms.fl=name&q=electronic&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix=electronic} status=0 QTime=1 
+2017-02-09 15:46:24.189 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q=electronic} hits=276 status=0 QTime=215 
+2017-02-09 15:46:24.304 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:46:24.304 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:46:24.304 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+2017-02-09 15:48:04.333 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655284313&limit=10&terms.fl=name&q="electronic&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic} status=0 QTime=1 
+2017-02-09 15:48:05.342 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655285335&limit=10&terms.fl=name&q="electronic&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic} status=0 QTime=0 
+2017-02-09 15:48:06.582 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655286576&limit=10&terms.fl=name&q="electronic+sgin&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+sgin} status=0 QTime=1 
+2017-02-09 15:48:07.678 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655287671&limit=10&terms.fl=name&q="electronic+si&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+si} status=0 QTime=1 
+2017-02-09 15:48:08.916 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655288909&limit=10&terms.fl=name&q="electronic+signature&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+signature} status=0 QTime=0 
+2017-02-09 15:48:09.666 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655289650&limit=10&terms.fl=name&q="electronic+signature"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+signature"} status=0 QTime=0 
+2017-02-09 15:48:09.818 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="electronic+signature"} hits=6 status=0 QTime=220 
+2017-02-09 15:48:09.887 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:48:09.888 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:48:09.888 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:48:15.780 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655295769&limit=10&terms.fl=name&q="electronic+signatue"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+signatue"} status=0 QTime=0 
+2017-02-09 15:48:16.919 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655296912&limit=10&terms.fl=name&q="electronic+signatuer\"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+signatuer\"} status=0 QTime=0 
+2017-02-09 15:48:17.716 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655297709&limit=10&terms.fl=name&q="electronic+signatuer"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+signatuer"} status=0 QTime=0 
+2017-02-09 15:48:18.366 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="electronic+signatuer"} hits=0 status=0 QTime=169 
+2017-02-09 15:48:18.408 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:48:18.408 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:48:18.408 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:48:24.577 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="electronic+signatures"} hits=10 status=0 QTime=142 
+2017-02-09 15:48:24.652 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:48:24.653 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+2017-02-09 15:48:24.655 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:49:14.244 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655354234&limit=10&terms.fl=name&q="electronic+signature"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+signature"} status=0 QTime=1 
+2017-02-09 15:49:16.522 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655356515&limit=10&terms.fl=name&q=""&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix=""} status=0 QTime=1 
+2017-02-09 15:49:17.624 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655357617&limit=10&terms.fl=name&q="post"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="post"} status=0 QTime=0 
+2017-02-09 15:49:20.368 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655360361&limit=10&terms.fl=name&q="postmarket+safter"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="postmarket+safter"} status=0 QTime=1 
+2017-02-09 15:49:21.887 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655361880&limit=10&terms.fl=name&q="postmarket+safety"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="postmarket+safety"} status=0 QTime=1 
+2017-02-09 15:49:21.948 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="postmarket+safety"} hits=0 status=0 QTime=142 
+2017-02-09 15:49:21.983 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:49:21.986 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+2017-02-09 15:49:21.988 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:49:28.208 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655368198&limit=10&terms.fl=name&q="postmarke"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="postmarke"} status=0 QTime=1 
+2017-02-09 15:49:29.210 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655369202&limit=10&terms.fl=name&q="postmarketing"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="postmarketing"} status=0 QTime=1 
+2017-02-09 15:49:30.457 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="postmarketing"} hits=37 status=0 QTime=111 
+2017-02-09 15:49:30.561 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:49:30.561 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:49:30.561 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:51:09.557 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655469539&limit=10&terms.fl=name&q="postmarketin"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="postmarketin"} status=0 QTime=1 
+2017-02-09 15:51:10.706 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655470698&limit=10&terms.fl=name&q=""&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix=""} status=0 QTime=0 
+2017-02-09 15:51:13.140 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655473134&limit=10&terms.fl=name&q="animal+role"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+role"} status=0 QTime=0 
+2017-02-09 15:51:13.299 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="animal+role"} hits=0 status=0 QTime=90 
+2017-02-09 15:51:13.341 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:13.343 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:51:13.343 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:16.179 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655476169&limit=10&terms.fl=name&q="animal+roe"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+roe"} status=0 QTime=0 
+2017-02-09 15:51:17.866 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655477858&limit=10&terms.fl=name&q="animal+r"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+r"} status=0 QTime=1 
+2017-02-09 15:51:18.815 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655478807&limit=10&terms.fl=name&q="animal+rule"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+rule"} status=0 QTime=1 
+2017-02-09 15:51:19.328 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="animal+rule"} hits=0 status=0 QTime=30 
+2017-02-09 15:51:19.400 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:19.400 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:19.402 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=1 
+2017-02-09 15:51:23.437 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655483428&limit=10&terms.fl=name&q="animal+"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+"} status=0 QTime=0 
+2017-02-09 15:51:23.856 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="animal+"} hits=448 status=0 QTime=81 
+2017-02-09 15:51:23.985 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:51:23.985 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:23.985 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:28.750 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655488741&limit=10&terms.fl=name&q="animal+rul+"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+rul+"} status=0 QTime=0 
+2017-02-09 15:51:30.076 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655490072&limit=10&terms.fl=name&q="animal+rule+"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+rule+"} status=0 QTime=0 
+2017-02-09 15:51:30.439 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="animal+rule+"} hits=0 status=0 QTime=27 
+2017-02-09 15:51:30.513 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:30.513 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:30.513 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:51:34.076 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=1 
+2017-02-09 15:51:34.082 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=1 
+2017-02-09 15:51:36.838 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655496827&limit=10&terms.fl=name&q="animal+"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+"} status=0 QTime=0 
+2017-02-09 15:51:37.673 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655497665&limit=10&terms.fl=name&q="animal+"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+"} status=0 QTime=0 
+2017-02-09 15:51:39.075 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655499069&limit=10&terms.fl=name&q="animal+r+"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+r+"} status=0 QTime=0 
+2017-02-09 15:51:39.828 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655499822&limit=10&terms.fl=name&q="animal+rule+"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+rule+"} status=0 QTime=0 
+2017-02-09 15:51:41.706 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="animal+rule"} hits=0 status=0 QTime=23 
+2017-02-09 15:51:41.760 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:41.760 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:51:41.760 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:51:44.274 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655504263&limit=10&terms.fl=name&q="animal+rule"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+rule"} status=0 QTime=0 
+2017-02-09 15:51:46.210 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655506203&limit=10&terms.fl=name&q="animal+r&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal+r} status=0 QTime=0 
+2017-02-09 15:51:46.910 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655506903&limit=10&terms.fl=name&q="animal&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="animal} status=0 QTime=0 
+2017-02-09 15:51:48.073 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655508066&limit=10&terms.fl=name&q="anima&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="anima} status=0 QTime=0 
+2017-02-09 15:51:51.316 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655511308&limit=10&terms.fl=name&q="&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="} status=0 QTime=0 
+2017-02-09 15:52:10.399 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655530394&limit=10&terms.fl=name&q="&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="} status=0 QTime=0 
+2017-02-09 15:52:12.045 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655532040&limit=10&terms.fl=name&q="elctr&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="elctr} status=0 QTime=0 
+2017-02-09 15:52:14.923 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655534919&limit=10&terms.fl=name&q="electronic+sig&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+sig} status=0 QTime=0 
+2017-02-09 15:52:16.981 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655536976&limit=10&terms.fl=name&q="electronic+signature&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+signature} status=0 QTime=0 
+2017-02-09 15:52:17.795 INFO  (qtp675137585-21) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/browse params={q="electronic+signature"} hits=6 status=0 QTime=66 
+2017-02-09 15:52:17.823 INFO  (qtp675137585-13) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/terms params={timestamp=1486655537820&limit=10&terms.fl=name&q="electronic+signature"&wt=velocity&v.template=suggest&terms.sort=count&terms.prefix="electronic+signature"} status=0 QTime=0 
+2017-02-09 15:52:17.877 INFO  (qtp675137585-20) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/main.css&contentType=text/css} status=0 QTime=0 
+2017-02-09 15:52:17.877 INFO  (qtp675137585-19) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.js&contentType=text/javascript} status=0 QTime=0 
+2017-02-09 15:52:17.877 INFO  (qtp675137585-16) [   x:21CFR] o.a.s.c.S.Request [21CFR] webapp=/solr path=/admin/file params={file=/velocity/jquery.autocomplete.css&contentType=text/css} status=0 QTime=0 

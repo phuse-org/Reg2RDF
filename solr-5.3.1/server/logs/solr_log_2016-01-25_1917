@@ -1,0 +1,955 @@
+2016-01-25 14:57:21.210 INFO  (main) [   ] o.e.j.u.log Logging initialized @1789ms
+2016-01-25 14:57:23.558 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2016-01-25 14:57:23.601 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2016-01-25 14:57:23.608 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Users/rashed/Desktop/solr-5.3.1/server/contexts/] at interval 0
+2016-01-25 14:57:25.703 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2016-01-25 14:57:25.815 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@25b2fe{/solr,file:/C:/Users/rashed/Desktop/solr-5.3.1/server/solr-webapp/webapp/,STARTING}{C:\Users\rashed\Desktop\solr-5.3.1\server/solr-webapp/webapp} has uncovered http methods for path: /
+2016-01-25 14:57:25.861 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=16581349@fd02e5
+2016-01-25 14:57:27.747 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2016-01-25 14:57:27.749 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Users\rashed\Desktop\solr-5.3.1\server\solr
+2016-01-25 14:57:27.833 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\rashed\Desktop\solr-5.3.1\server\solr\'
+2016-01-25 14:57:32.656 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\rashed\Desktop\solr-5.3.1\server\solr\solr.xml
+2016-01-25 14:57:33.171 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Users\rashed\Desktop\solr-5.3.1\server\solr
+2016-01-25 14:57:33.363 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 4646522
+2016-01-25 14:57:33.363 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\]
+2016-01-25 14:57:33.364 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Users\rashed\Desktop\solr-5.3.1\server\solr\lib
+2016-01-25 14:57:33.364 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\rashed\Desktop\solr-5.3.1\server\solr\lib).
+2016-01-25 14:57:33.484 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2016-01-25 14:57:34.031 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2016-01-25 14:57:34.052 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2016-01-25 14:57:34.061 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2016-01-25 14:57:34.086 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2016-01-25 14:57:34.086 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2016-01-25 14:57:34.528 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Users\rashed\Desktop\solr-5.3.1\server\solr
+2016-01-25 14:57:34.777 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=jcg, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg, absoluteInstDir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\, dataDir=data\}
+2016-01-25 14:57:34.779 INFO  (main) [   ] o.a.s.c.CoresLocator Found core jcg in C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\
+2016-01-25 14:57:34.781 INFO  (main) [   ] o.a.s.c.CoresLocator Found 1 core definitions
+2016-01-25 14:57:34.807 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Users\rashed\Desktop\solr-5.3.1\server
+2016-01-25 14:57:34.808 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\'
+2016-01-25 14:57:34.809 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2016-01-25 14:57:34.903 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@25b2fe{/solr,file:/C:/Users/rashed/Desktop/solr-5.3.1/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\rashed\Desktop\solr-5.3.1\server/solr-webapp/webapp}
+2016-01-25 14:57:35.425 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : -1
+2016-01-25 14:57:35.436 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2016-01-25 14:57:35.443 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+2016-01-25 14:57:35.444 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+2016-01-25 14:57:35.446 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+2016-01-25 14:57:35.449 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+2016-01-25 14:57:35.450 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+2016-01-25 14:57:35.451 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+2016-01-25 14:57:35.452 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+2016-01-25 14:57:35.453 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+2016-01-25 14:57:35.454 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+2016-01-25 14:57:35.455 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+2016-01-25 14:57:35.456 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+2016-01-25 14:57:35.457 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/jdom-1.0.jar' to classloader
+2016-01-25 14:57:35.458 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+2016-01-25 14:57:35.459 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+2016-01-25 14:57:35.460 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+2016-01-25 14:57:35.461 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+2016-01-25 14:57:35.463 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+2016-01-25 14:57:35.465 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/poi-3.11.jar' to classloader
+2016-01-25 14:57:35.466 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+2016-01-25 14:57:35.467 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+2016-01-25 14:57:35.468 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+2016-01-25 14:57:35.469 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/rome-1.0.jar' to classloader
+2016-01-25 14:57:35.470 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+2016-01-25 14:57:35.470 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+2016-01-25 14:57:35.471 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+2016-01-25 14:57:35.471 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+2016-01-25 14:57:35.472 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+2016-01-25 14:57:35.472 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+2016-01-25 14:57:35.473 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+2016-01-25 14:57:35.474 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+2016-01-25 14:57:35.475 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+2016-01-25 14:57:35.475 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+2016-01-25 14:57:35.476 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/extraction/lib/xz-1.5.jar' to classloader
+2016-01-25 14:57:35.517 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/dist/solr-cell-5.3.1.jar' to classloader
+2016-01-25 14:57:35.521 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+2016-01-25 14:57:35.523 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+2016-01-25 14:57:35.524 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+2016-01-25 14:57:35.524 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+2016-01-25 14:57:35.526 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+2016-01-25 14:57:35.527 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+2016-01-25 14:57:35.528 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+2016-01-25 14:57:35.529 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+2016-01-25 14:57:35.533 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/dist/solr-clustering-5.3.1.jar' to classloader
+2016-01-25 14:57:35.539 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+2016-01-25 14:57:35.540 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+2016-01-25 14:57:35.544 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@265ea9{HTTP/1.1}{0.0.0.0:8983}
+2016-01-25 14:57:35.544 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/dist/solr-langid-5.3.1.jar' to classloader
+2016-01-25 14:57:35.545 INFO  (main) [   ] o.e.j.s.Server Started @16133ms
+2016-01-25 14:57:35.548 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+2016-01-25 14:57:35.549 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+2016-01-25 14:57:35.550 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/velocity/lib/velocity-1.7.jar' to classloader
+2016-01-25 14:57:35.551 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+2016-01-25 14:57:35.555 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/rashed/Desktop/solr-5.3.1/dist/solr-velocity-5.3.1.jar' to classloader
+2016-01-25 14:57:36.123 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2016-01-25 14:57:36.211 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 5.3.1
+2016-01-25 14:57:36.748 INFO  (qtp7980742-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=684 
+2016-01-25 14:57:36.765 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2016-01-25 14:57:36.825 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf\schema.xml
+2016-01-25 14:57:37.164 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [jcg] Schema name=example
+2016-01-25 14:57:39.271 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2016-01-25 14:57:39.353 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+2016-01-25 14:57:39.364 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.r.RestManager Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+2016-01-25 14:57:39.918 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-01-25 14:57:39.949 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.FileExchangeRateProvider Reloading exchange rates from file currency.xml
+2016-01-25 14:57:41.043 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf'
+2016-01-25 14:57:41.048 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'jcg' using configuration from instancedir C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\
+2016-01-25 14:57:41.062 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2016-01-25 14:57:41.195 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore [[jcg] ] Opening new SolrCore at [C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\], dataDir=[null]
+2016-01-25 14:57:41.230 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2016-01-25 14:57:41.270 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore [[jcg] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2016-01-25 14:57:41.271 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore [[jcg] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2016-01-25 14:57:41.340 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data
+2016-01-25 14:57:41.352 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data\index/
+2016-01-25 14:57:41.357 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data\index
+2016-01-25 14:57:41.454 INFO  (OldIndexDirectoryCleanupThreadForCore-jcg) [   x:jcg] o.a.s.c.SolrCore Looking for old index directories to cleanup for core jcg in C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data\
+2016-01-25 14:57:41.468 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2016-01-25 14:57:41.494 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2016-01-25 14:57:42.099 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2016-01-25 14:57:42.273 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-01-25 14:57:42.279 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-01-25 14:57:42.281 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-01-25 14:57:42.283 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2016-01-25 14:57:42.355 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2016-01-25 14:57:42.355 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2016-01-25 14:57:42.355 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2016-01-25 14:57:42.362 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2016-01-25 14:57:42.362 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/suggest' created with startup=lazy 
+2016-01-25 14:57:42.363 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2016-01-25 14:57:42.363 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2016-01-25 14:57:42.363 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2016-01-25 14:57:42.364 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/suggest,/replication,/config,/stream,/schema,/admin/plugins,/admin/logging,/admin/ping,/update,/admin/file,/debug/dump,/terms,/update/extract
+2016-01-25 14:57:42.369 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2016-01-25 14:57:42.402 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2016-01-25 14:57:42.402 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2016-01-25 14:57:42.517 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2016-01-25 14:57:42.518 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2016-01-25 14:57:42.871 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(SimpleFSDirectory@C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@a9fee; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_v,generation=31}
+2016-01-25 14:57:42.872 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.SolrCore newest commit generation = 31
+2016-01-25 14:57:43.294 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.s.SolrIndexSearcher Opening Searcher@1337d0f[jcg] main
+2016-01-25 14:57:43.343 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf
+2016-01-25 14:57:43.344 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf}
+2016-01-25 14:57:43.355 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf
+2016-01-25 14:57:43.369 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _rest_managed.json using file:dir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf
+2016-01-25 14:57:43.370 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResource Loaded initArgs {} for /rest/managed
+2016-01-25 14:57:43.370 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.RestManager Initializing 2 registered ManagedResources
+2016-01-25 14:57:43.372 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_stopwords_english.json using file:dir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf
+2016-01-25 14:57:43.380 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf
+2016-01-25 14:57:43.380 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+2016-01-25 14:57:43.381 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResource Loaded 35 words for /schema/analysis/stopwords/english
+2016-01-25 14:57:43.382 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/stopwords/english
+2016-01-25 14:57:43.384 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResourceStorage Reading _schema_analysis_synonyms_english.json using file:dir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf
+2016-01-25 14:57:43.397 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResourceStorage Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf
+2016-01-25 14:57:43.398 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResource Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+2016-01-25 14:57:43.401 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResource Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+2016-01-25 14:57:43.406 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.r.ManagedResource Notified 1 observers of /schema/analysis/synonyms/english
+2016-01-25 14:57:43.434 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2016-01-25 14:57:43.480 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2016-01-25 14:57:43.518 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2016-01-25 14:57:43.524 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.c.SuggestComponent Initializing SuggestComponent
+2016-01-25 14:57:43.532 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.s.s.SolrSuggester init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2016-01-25 14:57:43.624 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.s.s.SolrSuggester Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string,buildOnStartup=false}
+2016-01-25 14:57:43.629 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\conf\elevate.xml
+2016-01-25 14:57:43.732 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2016-01-25 14:57:43.750 INFO  (searcherExecutor-7-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@1337d0f[jcg] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(5.3.1):C21/11:delGen=3) Uninverting(_g(5.3.1):C1) Uninverting(_k(5.3.1):C10/9:delGen=1) Uninverting(_p(5.3.1):C9) Uninverting(_y(5.3.1):C1)))}
+2016-01-25 14:57:43.793 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2016-01-25 14:57:43.800 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2016-01-25 14:57:43.935 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.u.VersionInfo Found MAX value 1523928302385889280 from Terms for _version_ in index
+2016-01-25 14:57:43.995 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.u.UpdateLog Took 201 ms to seed version buckets with highest version 1523928302385889280
+2016-01-25 14:57:44.000 INFO  (coreLoadExecutor-6-thread-1) [   x:jcg] o.a.s.c.CoreContainer registering core: jcg
+2016-01-25 14:57:44.142 INFO  (searcherExecutor-7-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=7 status=0 QTime=382 
+2016-01-25 14:57:44.193 INFO  (searcherExecutor-7-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.SolrCore QuerySenderListener done.
+2016-01-25 14:57:44.194 INFO  (searcherExecutor-7-thread-1-processing-x:jcg) [   x:jcg] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2016-01-25 14:57:44.194 INFO  (searcherExecutor-7-thread-1-processing-x:jcg) [   x:jcg] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2016-01-25 14:57:44.195 INFO  (searcherExecutor-7-thread-1-processing-x:jcg) [   x:jcg] o.a.s.c.SolrCore [jcg] Registered new searcher Searcher@1337d0f[jcg] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_f(5.3.1):C21/11:delGen=3) Uninverting(_g(5.3.1):C1) Uninverting(_k(5.3.1):C10/9:delGen=1) Uninverting(_p(5.3.1):C9) Uninverting(_y(5.3.1):C1)))}
+2016-01-25 14:59:18.672 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=name&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery110206346228332258761_1453733954225&explainOther=&hl.fl=*&wt=json&facet=true&_=1453733954226} hits=9 status=0 QTime=507 
+2016-01-25 15:00:24.088 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery11020037466249195858836_1453734020185&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734020186} hits=9 status=0 QTime=80 
+2016-01-25 15:03:19.775 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=&json.wrf=jQuery1102018853039853274822_1453734195605&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734195606} hits=0 status=0 QTime=17 
+2016-01-25 15:10:17.868 INFO  (qtp7980742-20) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=*:*&json.wrf=jQuery11020961172750685364_1453734612474&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734612475} hits=22 status=0 QTime=315 
+2016-01-25 15:11:03.464 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=*:*&json.wrf=jQuery11020961172750685364_1453734612474&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734612476} hits=22 status=0 QTime=56 
+2016-01-25 15:11:03.781 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=*:*&json.wrf=jQuery11020961172750685364_1453734612474&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734612477} hits=22 status=0 QTime=63 
+2016-01-25 15:11:04.594 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=*:*&json.wrf=jQuery11020961172750685364_1453734612474&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734612478} hits=22 status=0 QTime=33 
+2016-01-25 15:11:05.689 INFO  (qtp7980742-18) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=*:*&json.wrf=jQuery11020961172750685364_1453734612474&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734612479} hits=22 status=0 QTime=47 
+2016-01-25 15:11:06.458 INFO  (qtp7980742-17) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=*:*&json.wrf=jQuery11020961172750685364_1453734612474&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734612480} hits=22 status=0 QTime=36 
+2016-01-25 15:11:06.793 INFO  (qtp7980742-20) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=*:*&json.wrf=jQuery11020961172750685364_1453734612474&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734612481} hits=22 status=0 QTime=41 
+2016-01-25 15:11:07.345 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=*:*&json.wrf=jQuery11020961172750685364_1453734612474&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734612482} hits=22 status=0 QTime=23 
+2016-01-25 15:11:13.381 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery110203344318103045225_1453734669934&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734669935} hits=9 status=0 QTime=53 
+2016-01-25 15:11:14.573 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery110203344318103045225_1453734669934&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734669936} hits=9 status=0 QTime=43 
+2016-01-25 15:11:15.119 INFO  (qtp7980742-18) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery110203344318103045225_1453734669934&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734669937} hits=9 status=0 QTime=40 
+2016-01-25 15:11:15.549 INFO  (qtp7980742-17) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery110203344318103045225_1453734669934&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734669938} hits=9 status=0 QTime=46 
+2016-01-25 15:11:15.930 INFO  (qtp7980742-20) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery110203344318103045225_1453734669934&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734669939} hits=9 status=0 QTime=46 
+2016-01-25 15:11:59.608 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery110208265894805670579_1453734696080&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734696081} hits=9 status=0 QTime=43 
+2016-01-25 15:14:31.783 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery1102005229539377553316_1453734862023&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734862024} hits=9 status=0 QTime=27 
+2016-01-25 15:36:11.920 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110208226450385596996_1453736154409&explainOther=&hl.fl=*&wt=json&facet=true&_=1453736154410} hits=9 status=0 QTime=110 
+2016-01-25 15:42:03.301 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope&json.wrf=jQuery110203344318103045225_1453734669934&explainOther=&hl.fl=*&wt=json&facet=true&_=1453734669940} hits=9 status=0 QTime=37 
+2016-01-25 16:04:07.206 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery11020973179625114426_1453737843714&explainOther=&hl.fl=*&wt=json&facet=true&_=1453737843715} hits=9 status=0 QTime=226 
+2016-01-25 16:04:51.315 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110208525970350361365_1453737884829&explainOther=&hl.fl=*&wt=json&facet=true&_=1453737884830} hits=9 status=0 QTime=60 
+2016-01-25 16:04:52.575 INFO  (qtp7980742-18) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110208525970350361365_1453737884829&explainOther=&hl.fl=*&wt=json&facet=true&_=1453737884831} hits=9 status=0 QTime=37 
+2016-01-25 16:04:54.268 ERROR (qtp7980742-16) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scopecat:undefined AND (title:undefined^2.0 OR text:undefined)': Encountered " ":" ": "" at line 1, column 12.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scopecat:undefined AND (title:undefined^2.0 OR text:undefined)': Encountered " ":" ": "" at line 1, column 12.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 12.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:97)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2016-01-25 16:04:54.292 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scopecat:undefined+AND+(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110208525970350361365_1453737884829&explainOther=&hl.fl=*&wt=json&facet=true&_=1453737884832} status=400 QTime=97 
+2016-01-25 16:06:30.865 INFO  (qtp7980742-20) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110207371505929622799_1453737987726&explainOther=&hl.fl=*&wt=json&facet=true&_=1453737987727} hits=9 status=0 QTime=47 
+2016-01-25 16:06:44.270 INFO  (qtp7980742-17) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery1102041238692097427576_1453737999765&explainOther=&hl.fl=*&wt=json&facet=true&_=1453737999766} hits=9 status=0 QTime=30 
+2016-01-25 19:39:59.371 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110206822101653087884_1453750791538&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750791539} hits=0 status=0 QTime=435 
+2016-01-25 19:40:09.721 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110206822101653087884_1453750791538&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750791540} hits=0 status=0 QTime=4 
+2016-01-25 19:40:11.761 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110206822101653087884_1453750791538&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750791541} hits=0 status=0 QTime=6 
+2016-01-25 19:40:12.141 INFO  (qtp7980742-18) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110206822101653087884_1453750791538&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750791542} hits=0 status=0 QTime=4 
+2016-01-25 19:40:12.387 INFO  (qtp7980742-20) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110206822101653087884_1453750791538&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750791543} hits=0 status=0 QTime=3 
+2016-01-25 19:40:12.666 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110206822101653087884_1453750791538&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750791544} hits=0 status=0 QTime=3 
+2016-01-25 19:41:27.178 INFO  (qtp7980742-18) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery1102023804854066111147_1453750882215&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750882216} hits=0 status=0 QTime=140 
+2016-01-25 19:41:31.821 INFO  (qtp7980742-17) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery1102023804854066111147_1453750882215&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750882217} hits=0 status=0 QTime=3 
+2016-01-25 19:41:35.493 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery1102023804854066111147_1453750882215&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750882218} hits=0 status=0 QTime=2 
+2016-01-25 19:41:37.170 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery1102023804854066111147_1453750882215&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750882219} hits=0 status=0 QTime=3 
+2016-01-25 19:42:27.340 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery1102010050340532325208_1453750943624&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750943625} hits=9 status=0 QTime=112 
+2016-01-25 19:42:48.926 ERROR (qtp7980742-21) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scope(title:^2.0 OR text:)': Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scope(title:^2.0 OR text:)': Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:216)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:189)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2016-01-25 19:42:48.954 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:^2.0+OR+text:)&json.wrf=jQuery110202379026973710957_1453750937393&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750937394} status=400 QTime=40 
+2016-01-25 19:42:54.534 ERROR (qtp7980742-18) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scope(title:^2.0 OR text:)': Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scope(title:^2.0 OR text:)': Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:216)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:189)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2016-01-25 19:42:54.536 INFO  (qtp7980742-18) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:^2.0+OR+text:)&json.wrf=jQuery110202379026973710957_1453750937393&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750937395} status=400 QTime=5 
+2016-01-25 19:43:01.274 ERROR (qtp7980742-20) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scope(title:^2.0 OR text:)': Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scope(title:^2.0 OR text:)': Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " "^" "^ "" at line 1, column 16.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:216)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:189)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2016-01-25 19:43:01.315 INFO  (qtp7980742-20) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=category&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:^2.0+OR+text:)&json.wrf=jQuery110202379026973710957_1453750937393&explainOther=&hl.fl=text&wt=json&facet=true&_=1453750937396} status=400 QTime=43 
+2016-01-25 19:47:13.168 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={q=electronic&json.wrf=on_data&indent=on&start=0&callback=jsonp1453751226764&rows=50&version=2.2&wt=json} hits=8 status=0 QTime=64 
+2016-01-25 22:50:02.033 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&hl=true&hl.usePhraseHighlighter=true&hl.fragsize=3000&hl.simple.pre=<b>&q=cat:Scope&json.wrf=jQuery1111037776251466954436_1453762194628&hl.simple.post=</b>&hl.q=electronic&hl.fl=*&facet=true&wt=json&_=1453762194629} hits=9 status=0 QTime=123 
+2016-01-25 23:24:22.883 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=name&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110205420193138998002_1453764253286&explainOther=&hl.fl=*&wt=json&facet=true&_=1453764253287} hits=9 status=0 QTime=343 
+2016-01-25 23:30:07.360 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={q=electronic&json.wrf=on_data&indent=on&start=0&callback=jsonp1453764600427&rows=50&version=2.2&wt=json} hits=8 status=0 QTime=3 
+2016-01-25 23:31:28.411 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery11020998648018097537_1453764682064&explainOther=&hl.fl=*&wt=json&facet=true&_=1453764682065} hits=9 status=0 QTime=114 
+2016-01-25 23:36:20.761 ERROR (qtp7980742-17) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scopecat:undefined AND (title:undefined^2.0 OR text:undefined)': Encountered " ":" ": "" at line 1, column 12.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:215)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'cat:Scopecat:undefined AND (title:undefined^2.0 OR text:undefined)': Encountered " ":" ": "" at line 1, column 12.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:155)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	... 27 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 12.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:649)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:531)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:97)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	... 30 more
+
+2016-01-25 23:36:20.763 INFO  (qtp7980742-17) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scopecat:undefined+AND+(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery11020998648018097537_1453764682064&explainOther=&hl.fl=*&wt=json&facet=true&_=1453764682066} status=400 QTime=52 
+2016-01-25 23:40:54.127 INFO  (qtp7980742-20) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery1102044513239279053196_1453765245036&explainOther=&hl.fl=*&wt=json&facet=true&_=1453765245037} hits=9 status=0 QTime=175 
+2016-01-25 23:42:59.600 INFO  (qtp7980742-17) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(title:undefined^2.0+OR+text:undefined)&json.wrf=jQuery110209677379655435978_1453765373916&explainOther=&hl.fl=*&wt=json&facet=true&_=1453765373917} hits=9 status=0 QTime=100 
+2016-01-25 23:52:47.897 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&hl=true&hl.usePhraseHighlighter=true&hl.fragsize=3000&hl.simple.pre=<b>&q=cat:Scope&json.wrf=jQuery11020011100120302334315_1453765961911&hl.simple.post=</b>&hl.q=&hl.fl=*&facet=true&wt=json&_=1453765961912} hits=9 status=0 QTime=163 
+2016-01-25 23:57:34.258 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&hl=true&hl.usePhraseHighlighter=true&hl.fragsize=3000&hl.simple.pre=<b>&q=cat:Scope&json.wrf=jQuery110208479712664553556_1453766239742&hl.simple.post=</b>&hl.q=&hl.fl=*&facet=true&wt=json&_=1453766239743} hits=9 status=0 QTime=136 
+2016-01-26 00:02:42.140 ERROR (qtp7980742-18) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field Scope
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:189)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-01-26 00:02:42.150 INFO  (qtp7980742-18) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(cat:undefined^2.0+OR+Scope:undefined)&json.wrf=jQuery1102043487753332022605_1453766558246&explainOther=&hl.fl=*&wt=json&facet=true&_=1453766558247} status=400 QTime=52 
+2016-01-26 00:04:09.634 ERROR (qtp7980742-22) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field Scope
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:189)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:107)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-01-26 00:04:09.636 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=(cat:undefined^2.0+OR+Scope:undefined)&json.wrf=jQuery110209901339185735767_1453766640813&explainOther=&hl.fl=*&wt=json&facet=true&_=1453766640814} status=400 QTime=6 
+2016-01-26 00:05:05.757 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={q=cat:Scope&hl=true&hl.q=} hits=9 status=0 QTime=8 
+2016-01-26 00:06:30.416 INFO  (qtp7980742-21) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scopeindent%3Don&q=(cat:undefined^2.0+OR+Scope:undefined)&json.wrf=jQuery1102004264390511213756_1453766749917&explainOther=&hl.fl=*&wt=json&facet=true&_=1453766749918} hits=0 status=0 QTime=182 
+2016-01-26 00:08:34.446 ERROR (qtp7980742-22) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field Scope
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:189)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-01-26 00:08:34.448 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:Scope(cat:undefined^2.0+OR+Scope:undefined)&json.wrf=jQuery11020947007030122481_1453766885713&explainOther=&hl.fl=*&wt=json&facet=true&_=1453766885714} status=400 QTime=15 
+2016-01-26 00:10:12.747 ERROR (qtp7980742-19) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field Scope
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:189)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-01-26 00:10:12.749 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:name(cat:undefined^2.0+OR+Scope:undefined)&json.wrf=jQuery11020018990200017976355_1453767009161&explainOther=&hl.fl=*&wt=json&facet=true&_=1453767009162} status=400 QTime=4 
+2016-01-26 00:10:27.383 ERROR (qtp7980742-19) [   x:jcg] o.a.s.c.SolrCore org.apache.solr.common.SolrException: undefined field Scope
+	at org.apache.solr.schema.IndexSchema.getDynamicFieldType(IndexSchema.java:1298)
+	at org.apache.solr.schema.IndexSchema$SolrQueryAnalyzer.getWrappedAnalyzer(IndexSchema.java:444)
+	at org.apache.lucene.analysis.DelegatingAnalyzerWrapper$DelegatingReuseStrategy.getReusableComponents(DelegatingAnalyzerWrapper.java:74)
+	at org.apache.lucene.analysis.Analyzer.tokenStream(Analyzer.java:172)
+	at org.apache.lucene.util.QueryBuilder.createFieldQuery(QueryBuilder.java:205)
+	at org.apache.solr.parser.SolrQueryParserBase.newFieldQuery(SolrQueryParserBase.java:370)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:762)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:546)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:299)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:185)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:189)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:139)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:96)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:151)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:50)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:141)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:158)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:251)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:214)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016-01-26 00:10:27.384 INFO  (qtp7980742-19) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:name(cat:undefined^2.0+OR+Scope:undefined)&json.wrf=jQuery110207927390006370842_1453767022344&explainOther=&hl.fl=*&wt=json&facet=true&_=1453767022345} status=400 QTime=4 
+2016-01-26 00:12:44.789 INFO  (qtp7980742-16) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=cat:name(cat:undefined^2.0+OR+name:undefined)&json.wrf=jQuery1102042948520134714596_1453767160129&explainOther=&hl.fl=*&wt=json&facet=true&_=1453767160130} hits=0 status=0 QTime=33 
+2016-01-26 00:14:12.292 INFO  (qtp7980742-22) [   x:jcg] o.a.s.c.S.Request [jcg] webapp=/solr path=/select params={facet.field=cat&qt=standard&hl=true&indent=on&fl=*,score&start=0&hl.fragsize=3000&hl.usePhraseHighlighter=true&rows=10&version=2.2&q=(cat:undefined^2.0+OR+name:undefined)&json.wrf=jQuery1102045209419909752835_1453767248110&explainOther=&hl.fl=*&wt=json&facet=true&_=1453767248111} hits=0 status=0 QTime=14 
+2016-01-26 00:17:24.398 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@265ea9{HTTP/1.1}{0.0.0.0:8983}
+2016-01-26 00:17:24.415 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=4646522
+2016-01-26 00:17:24.496 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.c.SolrCore [jcg]  CLOSING SolrCore org.apache.solr.core.SolrCore@18ced05
+2016-01-26 00:17:24.746 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=16179,transaction_logs_total_number=10}
+2016-01-26 00:17:24.759 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.u.SolrCoreState Closing SolrCoreState
+2016-01-26 00:17:24.760 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2016-01-26 00:17:24.761 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2016-01-26 00:17:25.267 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.c.SolrCore [jcg] Closing main searcher on request.
+2016-01-26 00:17:25.437 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2016-01-26 00:17:25.469 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.c.CachingDirectoryFactory looking to close C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data\index [CachedDir<<refCount=0;path=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data\index;done=false>>]
+2016-01-26 00:17:25.470 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data\index
+2016-01-26 00:17:25.470 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.c.CachingDirectoryFactory looking to close C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data [CachedDir<<refCount=0;path=C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data;done=false>>]
+2016-01-26 00:17:25.471 INFO  (ShutdownMonitor) [   x:jcg] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Users\rashed\Desktop\solr-5.3.1\server\solr\jcg\data
+2016-01-26 00:17:25.722 INFO  (ShutdownMonitor) [   x:jcg] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@25b2fe{/solr,file:/C:/Users/rashed/Desktop/solr-5.3.1/server/solr-webapp/webapp/,UNAVAILABLE}{C:\Users\rashed\Desktop\solr-5.3.1\server/solr-webapp/webapp}
